@@ -35,7 +35,11 @@
     try {
       if (type === 'GET') {
         const res = await fetch(`${JSONBIN_API}/latest`, {
-          headers: { 'X-Master-Key': JSONBIN_KEY, Accept: 'application/json' },
+          headers: {
+            'X-Master-Key': JSONBIN_KEY,
+            'Accept': 'application/json',
+            'Cache-Control': 'no-cache',
+          },
         });
         if (!res.ok) {
           const body = await res.text().catch(() => '');
