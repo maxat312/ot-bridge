@@ -12,10 +12,19 @@
   its own pages.
 </p>
 <script>
-  /* ── Config — must match admin-mode.js on the main site ── */
-  const JSONBIN_ID  = '6a439e21da38895dfe153d76';
-  const JSONBIN_KEY = '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm';
-  const JSONBIN_API = `https://api.jsonbin.io/v3/b/${JSONBIN_ID}`;
+  /* ── Config — OLD and NEW bins ── */
+  const BINS = {
+    '6a439e21da38895dfe153d76': {
+      id: '6a439e21da38895dfe153d76',
+      key: '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm',
+      name: 'OLD'
+    },
+    '6a5caa9df5f4af5e29a38830': {
+      id: '6a5caa9df5f4af5e29a38830',
+      key: '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm',
+      name: 'NEW'
+    }
+  };
 
   /* Only respond to messages from the actual archive site.
      Update this if the site moves to a different domain. */
@@ -25,18 +34,30 @@
 
   window.addEventListener('message', async (event) => {
     if (!ALLOWED_ORIGINS.includes(event.origin)) return;
-    const { id, type, payload } = event.data || {};
+    const { id, type, payload, binId } = event.data || {};
     if (!id || !type) return;
+
+    // Default to old bin if no binId specified (backward compatibility)
+    const targetBinId = binId || '6a439e21da38895dfe153d76';
+    const bin = BINS[targetBinId];
 
     const reply = (data) => {
       event.source.postMessage({ id, ...data }, event.origin);
     };
 
+    // Validate bin exists
+    if (!bin) {
+      reply({ ok: false, error: `Invalid bin ID: ${targetBinId}` });
+      return;
+    }
+
+    const JSONBIN_API = `https://api.jsonbin.io/v3/b/${bin.id}`;
+
     try {
       if (type === 'GET') {
         const res = await fetch(`${JSONBIN_API}/latest`, {
           headers: {
-            'X-Master-Key': JSONBIN_KEY,
+            'X-Master-Key': bin.key,
             'Accept': 'application/json',
             'Cache-Control': 'no-cache',
           },
@@ -53,7 +74,7 @@
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            'X-Master-Key': JSONBIN_KEY,
+            'X-Master-Key': bin.key,
           },
           body: JSON.stringify(payload),
         });
