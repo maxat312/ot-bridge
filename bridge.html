@@ -49,7 +49,7 @@
     const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?ref=${GITHUB_BRANCH}`;
     const res = await fetch(url, {
       headers: {
-        Authorization: `Bearer ${GITHUB_TOKEN}`,
+        Authorization: `token ${GITHUB_TOKEN}`,
         Accept: 'application/vnd.github+json',
       },
     });
@@ -84,7 +84,7 @@
       {
         method: 'PUT',
         headers: {
-          Authorization: `Bearer ${GITHUB_TOKEN}`,
+          Authorization: `token ${GITHUB_TOKEN}`,
           Accept: 'application/vnd.github+json',
           'Content-Type': 'application/json',
         },
