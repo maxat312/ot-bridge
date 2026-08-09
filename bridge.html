@@ -12,31 +12,11 @@
   its own pages.
 </p>
 <script>
-  /* ── GitHub file storage (new — for everything going forward) ──
-     Bigger free ceiling than jsonbin (~1MB per file vs jsonbin's 100KB
-     per bin), no paywall, and reuses this same bridge/token pattern
-     instead of adding a whole new service. This does NOT touch the
-     jsonbin bins below — those stay exactly as they are, still read
-     for old data. This is just a new, much roomier place for new data
-     to land.
-
-     ONE-TIME SETUP — fill in GITHUB_TOKEN below:
-       1. GitHub → Settings → Developer settings →
-          Fine-grained personal access tokens → Generate new token.
-       2. Repository access: only this repo (ot-bridge) — not your
-          whole account.
-       3. Permissions: Contents → Read and write. Nothing else needed.
-       4. Copy the token and paste it in place of the placeholder text
-          right below. Commit this file.
-     That token lives here in plain text, same as the jsonbin master
-     key above — this file is public either way, so scoping the token
-     to just this one repo (step 2) is what actually limits the risk
-     if it ever leaks; it can't touch anything else on your account. */
-  const GITHUB_TOKEN = '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';
+  const GITHUB_TOKEN = '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';
   const GITHUB_OWNER = 'maxat312';
   const GITHUB_REPO = 'ot-bridge';
   const GITHUB_PATH = 'data/store.json';
-  const GITHUB_BRANCH = 'main'; // change if your repo's default branch is different
+  const GITHUB_BRANCH = 'main';
 
   function utf8ToBase64(str) {
     return btoa(unescape(encodeURIComponent(str)));
@@ -54,7 +34,6 @@
       },
     });
     if (res.status === 404) {
-      // file doesn't exist yet — first-ever write will create it
       return { data: {}, sha: null };
     }
     if (!res.ok) {
@@ -67,10 +46,6 @@
   }
 
   async function githubPut(payload) {
-    // GitHub requires the current file's sha to update it (this is
-    // also what prevents two overlapping writes from silently
-    // clobbering each other — the second write's sha will be stale
-    // and GitHub will reject it with a 409 instead of losing data).
     const { sha } = await githubGet();
     const body = {
       message: `Update store — ${new Date().toISOString()}`,
@@ -98,17 +73,9 @@
     return true;
   }
 
-  /* ── Config (jsonbin — kept for reading/patching existing bins) ── */
   const MASTER_KEY = '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm';
-
-  // jsonbin bin IDs are 24-character lowercase hex Mongo-style ids.
-  // This isn't a security boundary (ALLOWED_ORIGINS is) — it's just a
-  // sanity check so a malformed/empty binId fails with a clear error
-  // instead of silently hitting a broken URL.
   const BIN_ID_RE = /^[a-f0-9]{24}$/i;
 
-  /* Only respond to messages from the actual archive site.
-     Update this if the site moves to a different domain. */
   const ALLOWED_ORIGINS = [
     'https://olivertreearchiveproject.neocities.org',
   ];
@@ -185,7 +152,6 @@
     }
   });
 
-  // Let the parent know the bridge is loaded and ready
   if (window.parent !== window) {
     window.parent.postMessage({ type: 'BRIDGE_READY' }, '*');
   }
