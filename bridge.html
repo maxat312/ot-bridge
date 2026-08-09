@@ -6,13 +6,18 @@
 </head>
 <body>
 <p style="font-family: monospace; color: #888;">
-  OT Archive storage bridge — not meant to be visited directly.
-  This page exists only to relay requests from the archive site
-  to jsonbin.io, since Neocities blocks outgoing requests from
-  its own pages.
+  OT Archive storage bridge — token loaded from Neocities.
 </p>
 <script>
-  const GITHUB_TOKEN = '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';
+  // Load token from Neocities (keeps it out of GitHub)
+  async function loadToken() {
+    const res = await fetch('https://olivertreearchiveproject.neocities.org/token.txt');
+    const text = await res.text();
+    return text.trim();
+  }
+
+  // The rest of your code...
+  let GITHUB_TOKEN;
   const GITHUB_OWNER = 'maxat312';
   const GITHUB_REPO = 'ot-bridge';
   const GITHUB_PATH = 'data/store.json';
@@ -88,6 +93,17 @@
     const reply = (data) => {
       event.source.postMessage({ id, ...data }, event.origin);
     };
+
+    // Ensure token is loaded before handling requests
+    if (!GITHUB_TOKEN) {
+      try {
+        GITHUB_TOKEN = await loadToken();
+        console.log('✅ Token loaded from Neocities');
+      } catch (err) {
+        reply({ ok: false, error: 'Failed to load token: ' + err.message });
+        return;
+      }
+    }
 
     if (type === 'GH_GET') {
       try {
