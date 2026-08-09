@@ -12,19 +12,29 @@
   its own pages.
 </p>
 <script>
-  /* ── Config — OLD and NEW bins ── */
-  const BINS = {
-    '6a439e21da38895dfe153d76': {
-      id: '6a439e21da38895dfe153d76',
-      key: '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm',
-      name: 'OLD'
-    },
-    '6a5caa9df5f4af5e29a38830': {
-      id: '6a5caa9df5f4af5e29a38830',
-      key: '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm',
-      name: 'NEW'
-    }
-  };
+  /* ── Config ──────────────────────────────────────────
+     FIX: this used to hardcode a lookup table of specific bin IDs
+     (BINS = { '<old id>': {...}, '<new id>': {...} }), each with its
+     own entry. That meant every time a new bin was added on the
+     archive site's side (bridge-client.js's BIN_CHAIN), it ALSO had
+     to be added here, in a second repo, or every request for that
+     bin would fail with "Invalid bin ID" — which is exactly what was
+     happening.
+
+     Since every jsonbin bin here uses the same master key anyway,
+     there's no real need to allowlist individual bin IDs — the
+     ALLOWED_ORIGINS check below already makes sure only the actual
+     archive site can talk to this bridge in the first place. So now
+     any syntactically-valid bin ID sent to it is used directly with
+     this one key, and BIN_CHAIN on the site side is the only place
+     that ever needs to change when a new bin is added. ── */
+  const MASTER_KEY = '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm';
+
+  // jsonbin bin IDs are 24-character lowercase hex Mongo-style ids.
+  // This isn't a security boundary (ALLOWED_ORIGINS is) — it's just a
+  // sanity check so a malformed/empty binId fails with a clear error
+  // instead of silently hitting a broken URL.
+  const BIN_ID_RE = /^[a-f0-9]{24}$/i;
 
   /* Only respond to messages from the actual archive site.
      Update this if the site moves to a different domain. */
@@ -37,27 +47,22 @@
     const { id, type, payload, binId } = event.data || {};
     if (!id || !type) return;
 
-    // Default to old bin if no binId specified (backward compatibility)
-    const targetBinId = binId || '6a439e21da38895dfe153d76';
-    const bin = BINS[targetBinId];
-
     const reply = (data) => {
       event.source.postMessage({ id, ...data }, event.origin);
     };
 
-    // Validate bin exists
-    if (!bin) {
-      reply({ ok: false, error: `Invalid bin ID: ${targetBinId}` });
+    if (!binId || !BIN_ID_RE.test(binId)) {
+      reply({ ok: false, error: `Invalid bin ID: ${binId}` });
       return;
     }
 
-    const JSONBIN_API = `https://api.jsonbin.io/v3/b/${bin.id}`;
+    const JSONBIN_API = `https://api.jsonbin.io/v3/b/${binId}`;
 
     try {
       if (type === 'GET') {
         const res = await fetch(`${JSONBIN_API}/latest`, {
           headers: {
-            'X-Master-Key': bin.key,
+            'X-Master-Key': MASTER_KEY,
             'Accept': 'application/json',
             'Cache-Control': 'no-cache',
           },
@@ -74,7 +79,7 @@
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
-            'X-Master-Key': bin.key,
+            'X-Master-Key': MASTER_KEY,
           },
           body: JSON.stringify(payload),
         });
