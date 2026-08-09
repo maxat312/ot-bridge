@@ -6,22 +6,37 @@
 </head>
 <body>
 <p style="font-family: monospace; color: #888;">
-  OT Archive storage bridge — token loaded from Neocities.
+  OT Archive storage bridge — not meant to be visited directly.
+  This page exists only to relay requests from the archive site
+  to jsonbin.io, since Neocities blocks outgoing requests from
+  its own pages.
 </p>
 <script>
-  // Load token from Neocities (keeps it out of GitHub)
-  async function loadToken() {
-    const res = await fetch('https://olivertreearchiveproject.neocities.org/token.txt');
-    const text = await res.text();
-    return text.trim();
-  }
+  /* ── GitHub file storage (new — for everything going forward) ──
+     Bigger free ceiling than jsonbin (~1MB per file vs jsonbin's 100KB
+     per bin), no paywall, and reuses this same bridge/token pattern
+     instead of adding a whole new service. This does NOT touch the
+     jsonbin bins below — those stay exactly as they are, still read
+     for old data. This is just a new, much roomier place for new data
+     to land.
 
-  // The rest of your code...
-  let GITHUB_TOKEN;
+     ONE-TIME SETUP — fill in GITHUB_TOKEN below:
+       1. GitHub → Settings → Developer settings →
+          Fine-grained personal access tokens → Generate new token.
+       2. Repository access: only this repo (ot-bridge) — not your
+          whole account.
+       3. Permissions: Contents → Read and write. Nothing else needed.
+       4. Copy the token and paste it in place of the placeholder text
+          right below. Commit this file.
+     That token lives here in plain text, same as the jsonbin master
+     key above — this file is public either way, so scoping the token
+     to just this one repo (step 2) is what actually limits the risk
+     if it ever leaks; it can't touch anything else on your account. */
+  const GITHUB_TOKEN = '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';
   const GITHUB_OWNER = 'maxat312';
   const GITHUB_REPO = 'ot-bridge';
   const GITHUB_PATH = 'data/store.json';
-  const GITHUB_BRANCH = 'main';
+  const GITHUB_BRANCH = 'main'; // change if your repo's default branch is different
 
   function utf8ToBase64(str) {
     return btoa(unescape(encodeURIComponent(str)));
@@ -34,11 +49,12 @@
     const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?ref=${GITHUB_BRANCH}`;
     const res = await fetch(url, {
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
         Accept: 'application/vnd.github+json',
       },
     });
     if (res.status === 404) {
+      // file doesn't exist yet — first-ever write will create it
       return { data: {}, sha: null };
     }
     if (!res.ok) {
@@ -51,6 +67,10 @@
   }
 
   async function githubPut(payload) {
+    // GitHub requires the current file's sha to update it (this is
+    // also what prevents two overlapping writes from silently
+    // clobbering each other — the second write's sha will be stale
+    // and GitHub will reject it with a 409 instead of losing data).
     const { sha } = await githubGet();
     const body = {
       message: `Update store — ${new Date().toISOString()}`,
@@ -64,7 +84,7 @@
       {
         method: 'PUT',
         headers: {
-          Authorization: `token ${GITHUB_TOKEN}`,
+          Authorization: `Bearer ${GITHUB_TOKEN}`,
           Accept: 'application/vnd.github+json',
           'Content-Type': 'application/json',
         },
@@ -78,9 +98,17 @@
     return true;
   }
 
+  /* ── Config (jsonbin — kept for reading/patching existing bins) ── */
   const MASTER_KEY = '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm';
+
+  // jsonbin bin IDs are 24-character lowercase hex Mongo-style ids.
+  // This isn't a security boundary (ALLOWED_ORIGINS is) — it's just a
+  // sanity check so a malformed/empty binId fails with a clear error
+  // instead of silently hitting a broken URL.
   const BIN_ID_RE = /^[a-f0-9]{24}$/i;
 
+  /* Only respond to messages from the actual archive site.
+     Update this if the site moves to a different domain. */
   const ALLOWED_ORIGINS = [
     'https://olivertreearchiveproject.neocities.org',
   ];
@@ -93,17 +121,6 @@
     const reply = (data) => {
       event.source.postMessage({ id, ...data }, event.origin);
     };
-
-    // Ensure token is loaded before handling requests
-    if (!GITHUB_TOKEN) {
-      try {
-        GITHUB_TOKEN = await loadToken();
-        console.log('✅ Token loaded from Neocities');
-      } catch (err) {
-        reply({ ok: false, error: 'Failed to load token: ' + err.message });
-        return;
-      }
-    }
 
     if (type === 'GH_GET') {
       try {
@@ -168,6 +185,7 @@
     }
   });
 
+  // Let the parent know the bridge is loaded and ready
   if (window.parent !== window) {
     window.parent.postMessage({ type: 'BRIDGE_READY' }, '*');
   }
