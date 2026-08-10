@@ -7,105 +7,25 @@
 <body>
 <p style="font-family: monospace; color: #888;">
   OT Archive storage bridge — not meant to be visited directly.
-  This page exists only to relay requests from the archive site
-  to jsonbin.io, since Neocities blocks outgoing requests from
-  its own pages.
+  This page exists only to relay requests from the archive site to
+  the storage Worker, since Neocities blocks a page from making
+  fetch() calls to other domains directly — but that restriction
+  doesn't apply inside an iframe, which is all this page is.
 </p>
 <script>
-  /* ── GitHub file storage (new — for everything going forward) ──
-     Bigger free ceiling than jsonbin (~1MB per file vs jsonbin's 100KB
-     per bin), no paywall, and reuses this same bridge/token pattern
-     instead of adding a whole new service. This does NOT touch the
-     jsonbin bins below — those stay exactly as they are, still read
-     for old data. This is just a new, much roomier place for new data
-     to land.
+  /* ── This file holds NO secrets, on purpose ──────────────────
+     Every secret (GITHUB_TOKEN, JSONBIN_MASTER_KEY) lives in the
+     Cloudflare Worker's encrypted environment variables, never here.
+     This page's only job is: receive a postMessage from the parent
+     page, forward it to the Worker with a normal fetch() (allowed
+     here because this iframe has its own origin, separate from
+     Neocities' CSP), and relay the response back.
 
-     ONE-TIME SETUP — fill in GITHUB_TOKEN below:
-       1. GitHub → Settings → Developer settings →
-          Fine-grained personal access tokens → Generate new token.
-       2. Repository access: only this repo (ot-bridge) — not your
-          whole account.
-       3. Permissions: Contents → Read and write. Nothing else needed.
-       4. Copy the token and paste it in place of the placeholder text
-          right below. Commit this file.
-     That token lives here in plain text, same as the jsonbin master
-     key above — this file is public either way, so scoping the token
-     to just this one repo (step 2) is what actually limits the risk
-     if it ever leaks; it can't touch anything else on your account. */
-  const GITHUB_TOKEN = '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';
-  const GITHUB_OWNER = 'maxat312';
-  const GITHUB_REPO = 'ot-bridge';
-  const GITHUB_PATH = 'data/store.json';
-  const GITHUB_BRANCH = 'main'; // change if your repo's default branch is different
-
-  function utf8ToBase64(str) {
-    return btoa(unescape(encodeURIComponent(str)));
-  }
-  function base64ToUtf8(b64) {
-    return decodeURIComponent(escape(atob(b64)));
-  }
-
-  async function githubGet() {
-    const url = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}?ref=${GITHUB_BRANCH}`;
-    const res = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${GITHUB_TOKEN}`,
-        Accept: 'application/vnd.github+json',
-      },
-    });
-    if (res.status === 404) {
-      // file doesn't exist yet — first-ever write will create it
-      return { data: {}, sha: null };
-    }
-    if (!res.ok) {
-      const body = await res.text().catch(() => '');
-      throw new Error(`GitHub GET failed: HTTP ${res.status} — ${body}`);
-    }
-    const json = await res.json();
-    const content = base64ToUtf8((json.content || '').replace(/\n/g, ''));
-    return { data: content ? JSON.parse(content) : {}, sha: json.sha };
-  }
-
-  async function githubPut(payload) {
-    // GitHub requires the current file's sha to update it (this is
-    // also what prevents two overlapping writes from silently
-    // clobbering each other — the second write's sha will be stale
-    // and GitHub will reject it with a 409 instead of losing data).
-    const { sha } = await githubGet();
-    const body = {
-      message: `Update store — ${new Date().toISOString()}`,
-      content: utf8ToBase64(JSON.stringify(payload, null, 2)),
-      branch: GITHUB_BRANCH,
-    };
-    if (sha) body.sha = sha;
-
-    const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`,
-      {
-        method: 'PUT',
-        headers: {
-          Authorization: `Bearer ${GITHUB_TOKEN}`,
-          Accept: 'application/vnd.github+json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(body),
-      },
-    );
-    if (!res.ok) {
-      const errBody = await res.text().catch(() => '');
-      throw new Error(`GitHub PUT failed: HTTP ${res.status} — ${errBody}`);
-    }
-    return true;
-  }
-
-  /* ── Config (jsonbin — kept for reading/patching existing bins) ── */
-  const MASTER_KEY = '$2a$10$ni27PtwBEtGdiXSY.H9Q2Oim0Mr9zddEJuUoncU6aanX1uZL11iTm';
-
-  // jsonbin bin IDs are 24-character lowercase hex Mongo-style ids.
-  // This isn't a security boundary (ALLOWED_ORIGINS is) — it's just a
-  // sanity check so a malformed/empty binId fails with a clear error
-  // instead of silently hitting a broken URL.
-  const BIN_ID_RE = /^[a-f0-9]{24}$/i;
+     Because there's genuinely nothing sensitive in this file, it can
+     stay public forever with no risk of GitHub's secret scanner (or
+     anyone else) finding and revoking anything — there's nothing to
+     find. ── */
+  const WORKER_URL = 'https://ot-bridge-worker.maxat312.workers.dev/';
 
   /* Only respond to messages from the actual archive site.
      Update this if the site moves to a different domain. */
@@ -122,64 +42,14 @@
       event.source.postMessage({ id, ...data }, event.origin);
     };
 
-    if (type === 'GH_GET') {
-      try {
-        const { data } = await githubGet();
-        reply({ ok: true, data });
-      } catch (err) {
-        reply({ ok: false, error: err.message || String(err) });
-      }
-      return;
-    }
-    if (type === 'GH_PUT') {
-      try {
-        await githubPut(payload);
-        reply({ ok: true });
-      } catch (err) {
-        reply({ ok: false, error: err.message || String(err) });
-      }
-      return;
-    }
-
-    if (!binId || !BIN_ID_RE.test(binId)) {
-      reply({ ok: false, error: `Invalid bin ID: ${binId}` });
-      return;
-    }
-
-    const JSONBIN_API = `https://api.jsonbin.io/v3/b/${binId}`;
-
     try {
-      if (type === 'GET') {
-        const res = await fetch(`${JSONBIN_API}/latest`, {
-          headers: {
-            'X-Master-Key': MASTER_KEY,
-            'Accept': 'application/json',
-            'Cache-Control': 'no-cache',
-          },
-        });
-        if (!res.ok) {
-          const body = await res.text().catch(() => '');
-          reply({ ok: false, error: `HTTP ${res.status} — ${body}` });
-          return;
-        }
-        const json = await res.json();
-        reply({ ok: true, data: json.record || {} });
-      } else if (type === 'PUT') {
-        const res = await fetch(JSONBIN_API, {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Master-Key': MASTER_KEY,
-          },
-          body: JSON.stringify(payload),
-        });
-        if (!res.ok) {
-          const body = await res.text().catch(() => '');
-          reply({ ok: false, error: `HTTP ${res.status} — ${body}` });
-          return;
-        }
-        reply({ ok: true });
-      }
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ type, payload, binId }),
+      });
+      const json = await res.json();
+      reply(json);
     } catch (err) {
       reply({ ok: false, error: err.message || String(err) });
     }
