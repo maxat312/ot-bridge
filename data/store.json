@@ -1,5 +1,25 @@
 {
-  "submissions": [],
+  "deleted": [],
+  "moved": [],
+  "links": [],
+  "submissions": [
+    {
+      "id": "sub_1786325346175_qy7y9",
+      "era_id": "era-lymhyb",
+      "era_name": "Love You Madly (2026)",
+      "sub_type": "new",
+      "name": "Deep End Mix",
+      "existing_track": "",
+      "link": "https://pillows.su/f/102a8d707d08324df0c8e24a8a525506",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-08-10T01:29:06.175Z"
+    }
+  ],
   "approvals": [],
   "version": 1
 }
