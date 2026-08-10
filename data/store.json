@@ -786,6 +786,11 @@
       "link": "https://i.imgur.gg/nhtY9T8-Song_2_-_Oliver_Tree_x_Stereotypes.m4a"
     },
     {
+      "era_id": "era-turbo",
+      "name": "Diplo - Day One (feat. Oliver Tree)",
+      "link": "https://pillows.su/f/75ec30fa995af84fc0246ca248b79ff2"
+    },
+    {
       "era_id": "era-ugly",
       "name": "All in All",
       "link": "https://pillows.su/f/737663382c58da1f0ac2ba9a1e63e6e8"
@@ -1257,6 +1262,11 @@
     },
     {
       "era_id": "era-turbo",
+      "name": "When You Wake Up (prod. Sahy Uhnz & Oliver Tree) (Demo B)",
+      "link": "https://pillows.su/f/1b1eb7a25941cdb80a2c330356e13225"
+    },
+    {
+      "era_id": "era-turbo",
       "name": "Left Alone (Flume Cover) (prod. Getter & Oliver Tree)",
       "link": "https://pillows.su/f/9fad7f5cc65daa5a29d598ebfee6f353"
     },
@@ -1337,191 +1347,6 @@
     },
     {
       "era_id": "era-alien",
-      "name": "Money Talks [V1] (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/4318d4066fe936e0480847faa53b4349"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "All I Got [V1] (prod. Whethan, Oliver Tree & Jesse Nickell)",
-      "link": "https://pillows.su/f/0c8f242a99965ec89383164f4bb4681e"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "All That [V1] (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/9dfd709f0e0d76f4c7f7e12050c18dd4"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Welcome to LA [V1] (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/c8ad741f41f6625f5ccf3e12a7a5147a"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Again & Again [V1] (prod. NVDES & Oliver Tree)",
-      "link": "https://pillows.su/f/dca3cc6a471193885c62dcfbaf1f1639"
-    },
-    {
-      "era_id": "era-alien",
-      "name": "Come Again [V1] (prod. Casey Mattson, Oliver Tree & Dylan Wiggins) (All in All, Oliver Glenwood D)",
-      "link": "https://pillows.su/f/feebde911e703c10e64e3396ff09f6d7"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": " Bury Me Alive [V1] (prod. Trevor Brown, William Simmons & Oliver Tree)",
-      "link": "https://pillows.su/f/d713b4064de4ff7428193e8534542614"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Lies Came Out My Mouth [V1] (prod. Whethan, Oliver Tree & Dylan Wiggins)",
-      "link": "https://pillows.su/f/6de246451a2d93f783a27bd23b187f1e"
-    },
-    {
-      "era_id": "era-alien",
-      "name": "Life Goes On [V3] (prod. Getter & Oliver Tree)",
-      "link": "https://pillows.su/f/7106f268c49bfe08bbc715901363c3ca"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Out of Ordinary [V1] (prod. Whethan, Casey Mattson & Oliver Tree) (Ordinary)",
-      "link": "https://pillows.su/f/33c45b5778b32ad379ff26c68731eebb"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Waste My Time [V6] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
-      "link": "https://pillows.su/f/aff320d39b5a25e76eb17fe9a54576fc"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Bury Me Alive [V4] (prod. Trevor Brown, William Simmons & Oliver Tree)",
-      "link": "https://pillows.su/f/cec4eb9c9b60ea0724b5fec1e13609ce"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Joke's On You! [V5] (prod. Stint, Oliver Tree & RogÃ©t Chahayed)",
-      "link": "https://pillows.su/f/d06ea150a33201926994c2bb25ffa55a"
-    },
-    {
-      "era_id": "era-ugly",
-      "name": "Waste My Time [V7] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
-      "link": "https://pillows.su/f/6cfe3b3000f3e4ecad7db5cc72cecc37"
-    },
-    {
-      "era_id": "era-tree",
-      "name": "Day Gone [V1] (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/524c3f4d6dc0d2626d75471b5387cdb5"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Doo Doo [V1] (prod. Getter, Oliver Tree & Casey Mattson)",
-      "link": "https://pillows.su/f/69509444bcb70e1e2a7398ffddca2c7a"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Lights Off [V1]",
-      "link": "https://pillows.su/f/4699fcf31b29a9df61618bae07d4bec5"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": " My Girl [V1] (prod. Imad Royal & Oliver Tree)",
-      "link": "https://pillows.su/f/21842345b7b92dc85af84d44e497eeb0"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": " My Girl [V2] (prod. Imad Royal & Oliver Tree)",
-      "link": "https://pillows.su/f/f51e93b2f46d3794d87fbca94645fd08"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "All You Ever Wanted [V1] (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/583286d089121ee1b29b3999c40e0aeb"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Crazy [V1] (prod. Oliver Tree) (Song14)",
-      "link": "https://pillows.su/f/84b122eb8d07d36aa1feca2996fc0ff9"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Death Ray [V1] (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/9e1e452874155d83ae76329a90326e45"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Dirty [V1] (prod. Oliver Tree) (Tokyo Idea 5)",
-      "link": "https://pillows.su/f/78aee3da250c5a864f53b38929d4e9e8"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Flowers On My Tombstone [V1] (prod. Oliver Tree) (Flowers, Tokyo Idea 1)",
-      "link": "https://pillows.su/f/902bef3af75eb96980598aa5b9f9264c"
-    },
-    {
-      "era_id": "era-alien",
-      "name": "Halo [V1] (prod. Casey Mattson & Oliver Tree)",
-      "link": "https://pillows.su/f/c6d8e5b9127a11350a6373ae333c5ac6"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Hey Shorty [V1] (prod. Oliver Tree) (Uzbekistan Idea 2)",
-      "link": "https://pillows.su/f/b0ba465057e8c163bbbe428e431df80c"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "How It Ends [V1] (prod. Oliver Tree) (Jamaica Idea 1)",
-      "link": "https://pillows.su/f/4c066c6d050c806f17236f11f46a2adf"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "I Need You [V1] (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/5816519a952483140d1343755c261436"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Joyride [V3] (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/e7cd3978593b76cabff9aee3a29e04ed"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "My Only Friend [V1] (prod. Oliver Tree) (Euro Idea 18, Song18)",
-      "link": "https://pillows.su/f/8d85c0122d3c66a1e76cd5be3a703449"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Things We Used to Do [V3] (prod. John Hill & Oliver Tree)",
-      "link": "https://pillows.su/f/0b07e78f591a04786079230a359d7fc5"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Battleship [V1] (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/d8dbd15a1867ccd86b88f7baa84e958e"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Sunshine [V1] (prod. Whethan, Tim Randolph & Oliver Tree)",
-      "link": "https://pillows.su/f/b4016f5a632a289dcb302f730980199f"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Things We Used to Do [V1] (prod. John Hill & Oliver Tree)",
-      "link": "https://pillows.su/f/c9e184eb87be2647d0d3536307adc305"
-    },
-    {
-      "era_id": "era-tree",
-      "name": "Hold On (SBTRKT Remix) (prod. Oliver Tree)",
-      "link": "https://pillows.su/f/de3577913a02ff2963d9edfc6c78cd24"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Full Speed No Brakes [V1] (prod. Whethan & Oliver Tree) (Full Speed No Breaks)",
-      "link": "https://pillows.su/f/6d71d3799f285e973a18a3d9cf5fb0db"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Invisible Man [V1] (prod. Imad Royal, Casey Mattson & Oliver Tree)",
-      "link": "https://pillows.su/f/72aa7d6a0d76770c91802cec84eb580b"
-    },
-    {
-      "era_id": "era-alien",
       "name": "Lies [V2] (prod. RogÃ©t Chahayed & Oliver Tree)",
       "link": "https://pillows.su/f/d995a9e80467c1fa15bbc3a8f1d9b55b"
     },
@@ -1591,6 +1416,66 @@
       "link": "https://pillows.su/f/39f3e7b09d00d4073cca72558317ebcb"
     },
     {
+      "era_id": "era-alien",
+      "name": "Money Talks [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/4318d4066fe936e0480847faa53b4349"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All I Got [V1] (prod. Whethan, Oliver Tree & Jesse Nickell)",
+      "link": "https://pillows.su/f/0c8f242a99965ec89383164f4bb4681e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All That [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/9dfd709f0e0d76f4c7f7e12050c18dd4"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Upside Down [V1] (prod. NVDES, Casey Mattson & Oliver Tree) (Oliver Glenwood E)",
+      "link": "https://pillows.su/f/2ee490c1e02ed4f7f7643bc9fbbccf78"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Welcome to LA [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/c8ad741f41f6625f5ccf3e12a7a5147a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Again & Again [V1] (prod. NVDES & Oliver Tree)",
+      "link": "https://pillows.su/f/dca3cc6a471193885c62dcfbaf1f1639"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Come Again [V1] (prod. Casey Mattson, Oliver Tree & Dylan Wiggins) (All in All, Oliver Glenwood D)",
+      "link": "https://pillows.su/f/feebde911e703c10e64e3396ff09f6d7"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": " Bury Me Alive [V1] (prod. Trevor Brown, William Simmons & Oliver Tree)",
+      "link": "https://pillows.su/f/d713b4064de4ff7428193e8534542614"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Lies Came Out My Mouth [V1] (prod. Whethan, Oliver Tree & Dylan Wiggins)",
+      "link": "https://pillows.su/f/6de246451a2d93f783a27bd23b187f1e"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Life Goes On [V3] (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/7106f268c49bfe08bbc715901363c3ca"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Out of Ordinary [V1] (prod. Whethan, Casey Mattson & Oliver Tree) (Ordinary)",
+      "link": "https://pillows.su/f/33c45b5778b32ad379ff26c68731eebb"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Waste My Time [V6] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
+      "link": "https://pillows.su/f/aff320d39b5a25e76eb17fe9a54576fc"
+    },
+    {
       "era_id": "era-ugly",
       "name": "Me, Myself, & I (prod. Whethan & Oliver Tree)",
       "link": "https://pillows.su/f/7fd52368514f0012efc60d6f9cf866f0"
@@ -1607,6 +1492,21 @@
     },
     {
       "era_id": "era-ugly",
+      "name": "Bury Me Alive [V4] (prod. Trevor Brown, William Simmons & Oliver Tree)",
+      "link": "https://pillows.su/f/cec4eb9c9b60ea0724b5fec1e13609ce"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Joke's On You! [V5] (prod. Stint, Oliver Tree & RogÃ©t Chahayed)",
+      "link": "https://pillows.su/f/d06ea150a33201926994c2bb25ffa55a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Waste My Time [V7] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
+      "link": "https://pillows.su/f/6cfe3b3000f3e4ecad7db5cc72cecc37"
+    },
+    {
+      "era_id": "era-ugly",
       "name": "Hurt [V4] (prod. Whethan, Oliver Tree & Michael Leary) (Fuckin' Up)",
       "link": "https://pillows.su/f/03314efab11ff766ce231d8cc0cbd54d"
     },
@@ -1614,6 +1514,16 @@
       "era_id": "era-ugly",
       "name": "Introspective (prod. Andrew Goldstein & Oliver Tree)",
       "link": "https://pillows.su/f/b95a12614dd4baadb39935296ba76a47"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "I'm Gone (prod. Dylan Wiggins & Oliver Tree)",
+      "link": "https://pillows.su/f/282a5a6466bd4eb3b7bf6c21cef381e5"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Day Gone [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/524c3f4d6dc0d2626d75471b5387cdb5"
     },
     {
       "era_id": "era-tree",
@@ -1634,6 +1544,11 @@
       "era_id": "era-turbo",
       "name": "Clean Up Your Mess (prod. Getter & Oliver Tree)",
       "link": "https://pillows.su/f/ee3b29d1b1ad0d147673209cd3864f27"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Doo Doo [V1] (prod. Getter, Oliver Tree & Casey Mattson)",
+      "link": "https://pillows.su/f/69509444bcb70e1e2a7398ffddca2c7a"
     },
     {
       "era_id": "era-turbo",
@@ -1677,13 +1592,93 @@
     },
     {
       "era_id": "era-turbo",
+      "name": "Lights Off [V1]",
+      "link": "https://pillows.su/f/4699fcf31b29a9df61618bae07d4bec5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " My Girl [V1] (prod. Imad Royal & Oliver Tree)",
+      "link": "https://pillows.su/f/21842345b7b92dc85af84d44e497eeb0"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " My Girl [V2] (prod. Imad Royal & Oliver Tree)",
+      "link": "https://pillows.su/f/f51e93b2f46d3794d87fbca94645fd08"
+    },
+    {
+      "era_id": "era-turbo",
       "name": "Shorty [V1] (Rush & Rollet)",
       "link": "https://pillows.su/f/967729e860118afdeae1780d3abe5430"
     },
     {
       "era_id": "era-turbo",
+      "name": "All You Ever Wanted [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/583286d089121ee1b29b3999c40e0aeb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crazy [V1] (prod. Oliver Tree) (Song14)",
+      "link": "https://pillows.su/f/84b122eb8d07d36aa1feca2996fc0ff9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Death Ray [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/9e1e452874155d83ae76329a90326e45"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Deep End [V3] (prod. Oliver Tree) (Song5)",
+      "link": "https://pillows.su/f/6b2949462c8e39d3f4b059c6bf360b4f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Dirty [V1] (prod. Oliver Tree) (Tokyo Idea 5)",
+      "link": "https://pillows.su/f/78aee3da250c5a864f53b38929d4e9e8"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Flowers On My Tombstone [V1] (prod. Oliver Tree) (Flowers, Tokyo Idea 1)",
+      "link": "https://pillows.su/f/902bef3af75eb96980598aa5b9f9264c"
+    },
+    {
+      "era_id": "era-turbo",
       "name": "Fuck The Whole World (prod. Oliver Tree) (Lullaby, Song 19)",
       "link": "https://pillows.su/f/1696e4d4560f2b20c40cbbae8ed3a6fc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Glow On [V1]",
+      "link": "https://pillows.su/f/91a95ca778d73e98400f616958a3b85b"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Halo [V1] (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/c6d8e5b9127a11350a6373ae333c5ac6"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V1] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "link": "https://pillows.su/f/b0ba465057e8c163bbbe428e431df80c"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V1] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "link": "https://pillows.su/f/4c066c6d050c806f17236f11f46a2adf"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Need You [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/5816519a952483140d1343755c261436"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Joyride [V3] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/e7cd3978593b76cabff9aee3a29e04ed"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V1] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "link": "https://pillows.su/f/8d85c0122d3c66a1e76cd5be3a703449"
     },
     {
       "era_id": "era-turbo",
@@ -1694,6 +1689,11 @@
       "era_id": "era-turbo",
       "name": " Heaven & Hell",
       "link": "https://pillows.su/f/3e24c12cea8d138ccd79f21c8c292bd9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Kamikaze",
+      "link": "https://pillows.su/f/ab8c85c5dc7ec63c40d75f5adc4fa7a6"
     },
     {
       "era_id": "era-turbo",
@@ -1712,8 +1712,23 @@
     },
     {
       "era_id": "era-turbo",
+      "name": "Things We Used to Do [V3] (prod. John Hill & Oliver Tree)",
+      "link": "https://pillows.su/f/0b07e78f591a04786079230a359d7fc5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "A-Okay [V1] (prod. Nick Long, Oliver Tree, Travis Barker & Kevin Gruft)",
+      "link": "https://pillows.su/f/60c87b174ed5715b8ea2ac058d9db981"
+    },
+    {
+      "era_id": "era-turbo",
       "name": "Balloon Boy (prod. Casey Mattson & Oliver Tree)",
       "link": "https://pillows.su/f/574c0ecdcb4756a0ab3cf5ec1e09c34d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Battleship [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/d8dbd15a1867ccd86b88f7baa84e958e"
     },
     {
       "era_id": "era-turbo",
@@ -1737,6 +1752,16 @@
     },
     {
       "era_id": "era-turbo",
+      "name": "Freaks & Geeks (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/3efbe79058a22551bace1a937b4ca00d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Get Well Soon (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/e8bc850cba211324bc12dd7cd20bc4af"
+    },
+    {
+      "era_id": "era-turbo",
       "name": "I Hate You (prod. Whethan, Casey Mattson & Oliver Tree)",
       "link": "https://pillows.su/f/f75ffb6e05c1d6fbc2e47d41e6e9d2f4"
     },
@@ -1744,6 +1769,26 @@
       "era_id": "era-turbo",
       "name": "Mind Control (prod. Nick Long & Oliver Tree)",
       "link": "https://pillows.su/f/d8707ba546a4eea7ed79cb45bfcdb48f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Oxymoron (prod. Whethan, Oliver Tree & Dylan Wiggins)",
+      "link": "https://pillows.su/f/f3b64a34ef86bdd40afca3f7a8a43d2b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Placeholder (prod. Nick Long, Oliver Tree & Travis Barker) (Place Holder)",
+      "link": "https://pillows.su/f/5bb293cac8b494e77e31a6bdd04231fc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Suitcase Full of Cash  (prod. Nick Long, Oliver Tree & Travis Barker)",
+      "link": "https://pillows.su/f/18c74579c62b43251403b1191883fc24"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Sunshine [V1] (prod. Whethan, Tim Randolph & Oliver Tree)",
+      "link": "https://pillows.su/f/b4016f5a632a289dcb302f730980199f"
     },
     {
       "era_id": "era-turbo",
@@ -1759,6 +1804,11 @@
       "era_id": "era-turbo",
       "name": "The Villain [V2] (prod. Ilan Rubin, Imad Royal & Oliver Tree) (Villains, What U Waiting For)",
       "link": "https://pillows.su/f/ca574a4a12bc3ce0ed9c3861021feb95"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Things We Used to Do [V1] (prod. John Hill & Oliver Tree)",
+      "link": "https://pillows.su/f/c9e184eb87be2647d0d3536307adc305"
     },
     {
       "era_id": "era-ugly",
@@ -1782,11 +1832,6 @@
     },
     {
       "era_id": "era-turbo",
-      "name": "Alright [V2]",
-      "link": "https://pillows.su/f/6c47632aa3e9b804fcfb3966c55de1d5"
-    },
-    {
-      "era_id": "era-turbo",
       "name": "Anything (prod. Whethan & Oliver Tree)",
       "link": "https://pillows.su/f/4486349fc72a5e6bd700a77029a0e4cd"
     },
@@ -1796,8 +1841,8 @@
       "link": "https://pillows.su/f/1a86ce7318bffa2ea1ef364cfe7f7613"
     },
     {
-      "era_id": "era-turbo",
-      "name": "Hold On (prod. Whethan & Oliver Tree)",
+      "era_id": "era-tree",
+      "name": "Hold On (SBTRKT Remix) (prod. Oliver Tree)",
       "link": "https://pillows.su/f/de3577913a02ff2963d9edfc6c78cd24"
     },
     {
@@ -1809,11 +1854,6 @@
       "era_id": "era-turbo",
       "name": "Let It All Out (prod. Whethan & Oliver Tree)",
       "link": "https://pillows.su/f/e0e4517432bb401624035c420e65ab3b"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "The Science of Sleep [v2] (feat. Mothica) (prod. RogÃ©t Chahayed & Oliver Tree)",
-      "link": "https://pillows.su/f/5cb284161dfa4b48211ba3e58f5ad9d8"
     },
     {
       "era_id": "era-turbo",
@@ -1837,8 +1877,63 @@
     },
     {
       "era_id": "era-turbo",
-      "name": "Diplo - Day One (feat. Oliver Tree)",
-      "link": "https://pillows.su/f/75ec30fa995af84fc0246ca248b79ff2"
+      "name": "Full Speed No Brakes [V1] (prod. Whethan & Oliver Tree) (Full Speed No Breaks)",
+      "link": "https://pillows.su/f/6d71d3799f285e973a18a3d9cf5fb0db"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Bounce [V6] (prod. Digital Farm Animals, Will Vaughan, Oliver Tree & Matt Zara) (Up & Down)",
+      "link": "https://pillows.su/f/233403b00ca4fdd33bcc9c28128fcb99"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "One & Only [V2] (prod. Digital Farm Animals, Mojam, Oliver Tree & Will Vaughan) (What I Live For)",
+      "link": "https://pillows.su/f/47a2798eab3ed9a1132b45a3cb3e5123"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Essence [Super Computer Ver.]",
+      "link": "https://pillows.su/f/be9871735c07d43e0e502c4349908e4f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Star (prod. Whethan, Oliver Tree & JKash)",
+      "link": "https://pillows.su/f/7983df9de1452fb5d6a5bd7f19d7742d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Fairweather Friends [V2] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/43eac348597f52ba619a6a33895cb7fb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Smile (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/7a511b9b4b576698c2369affa7c8219e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Highlight of my Life (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/869fd749d0d8cd5155533e624c78abcb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The First Night (prod. Oliver Tree & Charlie Handsome) (First Night)",
+      "link": "https://pillows.su/f/65a88ee37569a1110ead1be172f804ed"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Invisible Man [V1] (prod. Imad Royal, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/72aa7d6a0d76770c91802cec84eb580b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Elevator to the Sky (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/04480bd7815595f8994f45d6dfbea8f1"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "With You (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/29a1e130d471ee13fa17ff4d3105e92f"
     },
     {
       "era_id": "era-turbo",
@@ -1857,18 +1952,23 @@
     },
     {
       "era_id": "era-turbo",
+      "name": "Alright [V2]",
+      "link": "https://pillows.su/f/6c47632aa3e9b804fcfb3966c55de1d5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hold On (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/de3577913a02ff2963d9edfc6c78cd24"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The Science of Sleep [v2] (feat. Mothica) (prod. RogÃ©t Chahayed & Oliver Tree)",
+      "link": "https://pillows.su/f/5cb284161dfa4b48211ba3e58f5ad9d8"
+    },
+    {
+      "era_id": "era-turbo",
       "name": " Essence (feat. Super Computer) (prod. Whethan & Oliver Tree)",
       "link": "https://pillows.su/f/d9dc5fac8d5a61ec7eda9fb1da984f6e"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Fairweather Friends [V2] (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/43eac348597f52ba619a6a33895cb7fb"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Highlight of my Life (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/869fd749d0d8cd5155533e624c78abcb"
     },
     {
       "era_id": "era-turbo",
@@ -1887,16 +1987,6 @@
     },
     {
       "era_id": "era-turbo",
-      "name": "Deep End [V3] (prod. Oliver Tree) (Song5)",
-      "link": "https://pillows.su/f/6b2949462c8e39d3f4b059c6bf360b4f"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Glow On [V1]",
-      "link": "https://pillows.su/f/91a95ca778d73e98400f616958a3b85b"
-    },
-    {
-      "era_id": "era-turbo",
       "name": "I Want You* (prod. Oliver Tree)",
       "link": "https://pillows.su/f/955192b8fc748a0f154ef648363e905b"
     },
@@ -1906,29 +1996,9 @@
       "link": "https://pillows.su/f/824e5e2d5110e4980f4341dfb8ea6dc0"
     },
     {
-      "era_id": "era-ugly",
-      "name": "I'm Gone (prod. Dylan Wiggins & Oliver Tree)",
-      "link": "https://pillows.su/f/282a5a6466bd4eb3b7bf6c21cef381e5"
-    },
-    {
       "era_id": "era-turbo",
       "name": "Swimmer's Delight (SOS) [V1] (prod. Whethan, Casey Mattson & Oliver Tree)",
       "link": "https://pillows.su/f/4386ef0d6cec5d77db1e5df8b1090fae"
-    },
-    {
-      "era_id": "era-alien",
-      "name": "Upside Down [V1] (prod. NVDES, Casey Mattson & Oliver Tree) (Oliver Glenwood E)",
-      "link": "https://pillows.su/f/2ee490c1e02ed4f7f7643bc9fbbccf78"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "When You Wake Up (prod. Sahy Uhnz & Oliver Tree) (Demo B)",
-      "link": "https://pillows.su/f/1b1eb7a25941cdb80a2c330356e13225"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "A-Okay [V1] (prod. Nick Long, Oliver Tree, Travis Barker & Kevin Gruft)",
-      "link": "https://pillows.su/f/60c87b174ed5715b8ea2ac058d9db981"
     },
     {
       "era_id": "era-turbo",
@@ -1942,38 +2012,8 @@
     },
     {
       "era_id": "era-turbo",
-      "name": "Freaks & Geeks (prod. Whethan, Casey Mattson & Oliver Tree)",
-      "link": "https://pillows.su/f/3efbe79058a22551bace1a937b4ca00d"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Get Well Soon (prod. Whethan, Casey Mattson & Oliver Tree)",
-      "link": "https://pillows.su/f/e8bc850cba211324bc12dd7cd20bc4af"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Oxymoron (prod. Whethan, Oliver Tree & Dylan Wiggins)",
-      "link": "https://pillows.su/f/f3b64a34ef86bdd40afca3f7a8a43d2b"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Placeholder (prod. Nick Long, Oliver Tree & Travis Barker) (Place Holder)",
-      "link": "https://pillows.su/f/5bb293cac8b494e77e31a6bdd04231fc"
-    },
-    {
-      "era_id": "era-turbo",
       "name": "Better Off Dead (prod. Nick Long, Oliver Tree & Travis Barker) (Replacement)",
       "link": "https://pillows.su/f/8bf85f435de11b0bddf462055af6ec98"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Suitcase Full of Cash  (prod. Nick Long, Oliver Tree & Travis Barker)",
-      "link": "https://pillows.su/f/18c74579c62b43251403b1191883fc24"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Kamikaze",
-      "link": "https://pillows.su/f/ab8c85c5dc7ec63c40d75f5adc4fa7a6"
     },
     {
       "era_id": "era-turbo",
@@ -1982,48 +2022,13 @@
     },
     {
       "era_id": "era-turbo",
-      "name": "Bounce [V6] (prod. Digital Farm Animals, Will Vaughan, Oliver Tree & Matt Zara) (Up & Down)",
-      "link": "https://pillows.su/f/233403b00ca4fdd33bcc9c28128fcb99"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Elevator to the Sky (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/04480bd7815595f8994f45d6dfbea8f1"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Essence [Super Computer Ver.]",
-      "link": "https://pillows.su/f/be9871735c07d43e0e502c4349908e4f"
-    },
-    {
-      "era_id": "era-turbo",
       "name": "Fairweather Friends [V1] (prod. Whethan & Oliver Tree)",
       "link": "https://pillows.su/f/a2c89d077f7de848023cdef253599c72"
     },
     {
-      "era_id": "era-turbo",
-      "name": "One & Only [V2] (prod. Digital Farm Animals, Mojam, Oliver Tree & Will Vaughan) (What I Live For)",
-      "link": "https://pillows.su/f/47a2798eab3ed9a1132b45a3cb3e5123"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Smile (prod. Whethan & Oliver Tree)",
-      "link": "https://pillows.su/f/7a511b9b4b576698c2369affa7c8219e"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "Star (prod. Whethan, Oliver Tree & JKash)",
-      "link": "https://pillows.su/f/7983df9de1452fb5d6a5bd7f19d7742d"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "The First Night (prod. Oliver Tree & Charlie Handsome) (First Night)",
-      "link": "https://pillows.su/f/65a88ee37569a1110ead1be172f804ed"
-    },
-    {
-      "era_id": "era-turbo",
-      "name": "With You (prod. Whethan, Casey Mattson & Oliver Tree)",
-      "link": "https://pillows.su/f/29a1e130d471ee13fa17ff4d3105e92f"
+      "era_id": "era-ugly",
+      "name": "Sugar Coat",
+      "link": "https://pillows.su/f/aca335973893efe447ae56568c3f624f"
     }
   ],
   "submissions": [
