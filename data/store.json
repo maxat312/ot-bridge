@@ -1,7 +1,2031 @@
 {
-  "deleted": [],
-  "moved": [],
-  "links": [],
+  "deleted": [
+    {
+      "era_id": "era-cowboy",
+      "name": "You turn the tables V1"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "You_Turn_The_Tables"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "You turn the tables V1"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "test1"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "weqewq"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "when the farts a pooop"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Round 2 Act 1"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "song17 24.03.24"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Additional Kryph Demos"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Jungle Funk REBOUNCE"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "HateFul Soul"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Tully (feat. Kirsten Rosenberg) (prod. Shelf Nunny & Oliver Tree)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "ðŸ‘‘ You Smell Like Shit But I Still Love You"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "When I'm Down (feat. Whethan)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Do You Feel Me? (Single)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Bounce (Early Demo)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "CalArts Session Recordings"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Turbo Character Development Demos"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Early Atlantic Sessions (Scrapped)"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Scrapped Collab Cuts"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Alien Boy Sessions B-Sides"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Let Me Down (Early Demo)"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Jerk (Alternate Version)"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Pre-Album Demo Sessions"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Cowboy Era Cuts (~20+ known)"
+    },
+    {
+      "era_id": "era-welcome",
+      "name": "Scrapped Little Big Collabs"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "The Experiment"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Grow"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "The Forest Fire Vault"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Tree Collaborations Uploads"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "UIB Vault (~80+ further cuts)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My People [V2] (prod. Louis The Child, Blaise Railey & Oliver Tree)"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Early Oliver Tree"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Unknown [Forget Brennan Collaboration]"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Cash Machine (Single)"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Bury Me Alive"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Let Me Down"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "DYFM Era B-Sides"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Robert Koch - Cheapskate [V1] (prod. Robert Koch)"
+    }
+  ],
+  "moved": [
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V1] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V2] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V3] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V4] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V5] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Need You [V2] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Joyride [V3] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Deep End [V3] (prod. Oliver Tree) (Song5)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Death Ray [V2] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Death Ray [V1] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crazy [V7] (prod. Oliver Tree) (Song14)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All You Ever Wanted [V1] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Glow On [V1]",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Fuck The Whole World (prod. Oliver Tree) (Lullaby, Song 19)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Toxic Love [V1] (prod. Oliver Tree) (Superhero, South Africa Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Toxic Love [V2] (prod. Oliver Tree) (Superhero, South Africa Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "✨ Toxic Love [V3] (prod. Oliver Tree) (Superhero, South Africa Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Living Hell [V4] (prod. Oliver Tree) (Colombia Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Living Hell [V3] (prod. Oliver Tree) (Colombia Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Living Hell [V2] (prod. Oliver Tree) (Colombia Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Love U 2 Death [V1] (prod. Oliver Tree) (Love Her 2 Death, Kyrgyzstan Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Living Hell [V1] (prod. Oliver Tree) (Colombia Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Love Her 2 Death [V2] (prod. Oliver Tree) (Love U 2 Death, Kyrgyzstan Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Love Her 2 Death [V3] (prod. Oliver Tree) (Love U 2 Death, Kyrgyzstan Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Love Her 2 Death [V5] (prod. Oliver Tree) (Love U 2 Death, Kyrgyzstan Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Love Her 2 Death [V4] (prod. Oliver Tree) (Love U 2 Death, Kyrgyzstan Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Love U Hate U (prod. Oliver Tree) (Kazakhstan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Lullaby (prod. Oliver Tree) (Fuck The Whole World, Song 19)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V1] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V2] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V3] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V4] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V5] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V6] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V7] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V1] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V2] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V3] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V4] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V5] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V6] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V7] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Need You [V1] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V6] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Jamaica Idea 2",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V5] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Joyride [V2] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Joyride [V1] (prod. Oliver Tree)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V4] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V3] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V2] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V1] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Halo [V8] (prod. Oliver Tree) (Central America Idea 6)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "✨ Flowers On My Tombstone [V5] (Flowers, Tokyo Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Dirty [V1] (prod. Oliver Tree) (Tokyo Idea 5)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crazy [V4] (prod. Oliver Tree) (Song14)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Deep End [V2] (prod. Oliver Tree) (Song5)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "✨ Deep End [V1] (prod. Oliver Tree) (Deep End)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "The Dummest Man On Earth",
+      "to_era_id": "era-dyfm"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Movie [V1] (prod. Oliver Tree) (Colombia Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Movie [V2] (prod. Oliver Tree) (Colombia Idea 2)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Nightmare [V1] (prod. Oliver Tree) (Puerto Rico Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Nightmare [V2] (prod. Oliver Tree) (Puerto Rico Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Nightmare [V3] (prod. Oliver Tree) (Puerto Rico Idea 1)",
+      "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Love U Hate U (prod. Oliver Tree) (Kazakhstan Idea 2)",
+      "to_era_id": "era-lymhyb"
+    }
+  ],
+  "links": [
+    {
+      "era_id": "era-kryph",
+      "name": "An Apology",
+      "link": "https://www.youtube.com/watch?v=9NiLY2yOx8M"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Once It's Gone",
+      "link": "https://soundcloud.com/dready-black/once-its-gone-preview-prod-by-samson-stillwell-kryph"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Next Level Shit",
+      "link": "https://www.youtube.com/watch?v=vCEkHj_N6Qc"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Worldwide",
+      "link": "https://youtu.be/VAuZU6pB1nE?is=8TnZlrIH5Pl3kSb9"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Shattered Fractal",
+      "link": "https://soundcloud.com/themusictree/shattered-fractal-ft-getter"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Splitting Branches",
+      "link": "https://soundcloud.com/treecollabsre/sets/splitting-branches-1"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Bounce",
+      "link": "https://soundcloud.com/olivertree/bounce?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "One & Only",
+      "link": "https://soundcloud.com/olivertree/one-only-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Essence (feat. Super Computer)",
+      "link": "https://soundcloud.com/olivertree/essence-feat-super-computer?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Star",
+      "link": "https://soundcloud.com/olivertree/star-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Fairweather Friends",
+      "link": "https://soundcloud.com/olivertree/fairweather-friends-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Smile",
+      "link": "https://soundcloud.com/olivertree/smile-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Ugly Side",
+      "link": "https://soundcloud.com/olivertree/ugly-side-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Highlight Of My Life",
+      "link": "https://soundcloud.com/olivertree/highlight-of-my-life-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "The First Night",
+      "link": "https://soundcloud.com/olivertree/the-first-night-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Strangers",
+      "link": "https://soundcloud.com/olivertree/strangers-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Invisible Man",
+      "link": "https://soundcloud.com/olivertree/invisible-man-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Elevator To The Sky",
+      "link": "https://soundcloud.com/olivertree/elevator-to-the-sky-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "With You",
+      "link": "https://soundcloud.com/olivertree/with-you-1?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Miss You (Bonus)",
+      "link": "https://soundcloud.com/olivertree/miss-you-bonus-track?in=olivertree/sets/alone-in-a-crowd-8"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "You turn the tables V1",
+      "link": "https://files.catbox.moe/qypkdu.mp3"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Additional Kryph Demos",
+      "link": "admin"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Tully (feat. Kirsten Rosenberg) (prod. Shelf Nunny & Oliver Tree)",
+      "link": "https://www.youtube.com/watch?v=NZPu8oQX_5I&list=RDNZPu8oQX_5I&start_radio=1"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Clint Eastwood (Gorillaz Remix) [Update] (prod. Getter & Oliver Tree)",
+      "link": "https://www.youtube.com/watch?v=jqoPE2nDJik&list=RDjqoPE2nDJik&start_radio=1"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "My Only Friend",
+      "link": "https://soundcloud.com/olivertree/my-only-friend?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "I Need You",
+      "link": "https://soundcloud.com/olivertree/i-need-you?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Glow On",
+      "link": "https://soundcloud.com/olivertree/glow-on?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Sideways",
+      "link": "https://soundcloud.com/olivertree/sideways?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Hey Shorty",
+      "link": "https://soundcloud.com/olivertree/hey-shorty?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "F**k The Whole World",
+      "link": "https://soundcloud.com/olivertree/fuck-the-whole-world?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Superhero",
+      "link": "https://soundcloud.com/olivertree/superhero?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Death Ray",
+      "link": "https://soundcloud.com/olivertree/death-ray?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Dirty",
+      "link": "https://soundcloud.com/olivertree/dirty?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Deep End",
+      "link": "https://soundcloud.com/olivertree/deep-end?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Joyride",
+      "link": "https://soundcloud.com/olivertree/joyride?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Crazy",
+      "link": "https://soundcloud.com/olivertree/crazy?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Someone Else",
+      "link": "https://soundcloud.com/olivertree/someone-else?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Halo",
+      "link": "https://soundcloud.com/olivertree/halo-1?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "All You Ever Wanted",
+      "link": "https://soundcloud.com/olivertree/all-you-ever-wanted?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "Flowers",
+      "link": "https://soundcloud.com/olivertree/flowers?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "How It Ends",
+      "link": "https://soundcloud.com/olivertree/how-it-ends?in=olivertree/sets/love-you-madly-hate-you-2"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Good Grief [V1] (prod. NVDES & Oliver Tree)",
+      "link": "https://i.imgur.gg/yVJ6KlN-GOOD_GRIEF_2021.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "✨ Heaven & Hell",
+      "link": "https://i.imgur.gg/KhrcSMD-Heaven_&_Hell.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "LET'S GO*",
+      "link": "https://i.imgur.gg/oGwy11T-SUPER_COMPUTER_-_LETS_GO.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "GOOD NEWS*",
+      "link": "https://i.imgur.gg/1dfVHfI-SUPER_COMPUTER_-_GOOD_NEWS.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "MINION*",
+      "link": "https://i.imgur.gg/NIZ2srX-SUPER_COMPUTER_-_MINION.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "NEED YOU NOW*",
+      "link": "https://i.imgur.gg/i8Rp2U2-SUPER_COMPUTER_-_NEED_YOU_NOW.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "SUPER COMPUTER*",
+      "link": "https://i.imgur.gg/Qg6IbuZ-SUPER_COMPUTER_-_SELFTITLED.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "WELCOME*",
+      "link": "https://i.imgur.gg/kQzdtCU-SUPER_COMPUTER_-_WELCOME.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "BURNING DOWN THE HOUSE*",
+      "link": "https://i.imgur.gg/CBrnhBw-SUPER_COMPUTER_-_BURNING_DOWN_THE_HOUSE_(Alt).mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "BURNING DOWN THE HOUSE* [Alt.]",
+      "link": "https://i.imgur.gg/CBrnhBw-SUPER_COMPUTER_-_BURNING_DOWN_THE_HOUSE_(Alt).mp3"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "My Only Friend [V1] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "link": "https://i.imgur.gg/qYkDVu0-Song_18_V9.m4a"
+    },
+    {
+      "era_id": "era-lymhyb",
+      "name": "My Only Friend [V4] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "link": "https://i.imgur.gg/Rv6OVaS-Song18_24.03.25_03.m4a"
+    },
+    {
+      "era_id": "era-alone",
+      "name": "Miss You (Original Version)",
+      "link": "https://pillows.su/f/2b5470c9cd22d3373e6cb43f8250a5c7"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Over Time (feat. Jessie Reyes*)",
+      "link": "https://i.imgur.gg/EzsVmuA-Over_time_2.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Push Me Out The Window [V1]",
+      "link": "https://i.imgur.gg/hfDqB6T-Push_Me_Out_The_Window.wav"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Push Me Out The Window [V2]",
+      "link": "https://i.imgur.gg/cPBWPh8-Push_Me_Out_The_Window_1.1.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ Dancing on the Moon",
+      "link": "https://i.imgur.gg/jwtCZSm-Dancing_On_The_Moon_23.02.16.m4a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "✨ Erased From My Life",
+      "link": "https://i.imgur.gg/j6uGOFk-Erased_From_My_Life_23.02.15.m4a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "⭐ I Miss You A Lot* (prod. The Stereotypes & Oliver Tree) (Song 2)",
+      "link": "https://i.imgur.gg/nhtY9T8-Song_2_-_Oliver_Tree_x_Stereotypes.m4a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "All in All",
+      "link": "https://pillows.su/f/737663382c58da1f0ac2ba9a1e63e6e8"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Lies Came Out My Mouth",
+      "link": "https://pillows.su/f/146531431323696c34d6930cb723c51c"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Me, Myself & I",
+      "link": "https://www.youtube.com/watch?v=jbmM-_6O6DE"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "⭐ 15 Minutes",
+      "link": "https://i.imgur.gg/IrgqQZi-15_Minutes.mp3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Chasing Storms (prod. Ari Gumora & Oliver Tree)",
+      "link": "https://pillows.su/f/1e2985265d87a01c391f5a90ae3627c1"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "What So Not - Mr Regular [V1] (feat. Oliver Tree & Killer Mike) (prod. What So Not & James Earl)",
+      "link": "https://pillows.su/f/44c09014537539a0d8c8ccef0855dce9"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "What So Not - Mr Regular [V2] (feat. Oliver Tree & Killer Mike) (prod. What So Not & James Earl)",
+      "link": "https://pillows.su/f/44c09014537539a0d8c8ccef0855dce9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Everything I Ever Saw (Summer 2016)",
+      "link": "https://pillows.su/f/0b4197ad60e7e5d5533579f9c8f6aa9f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Jai Wolf - How It Ended (feat. Oliver Tree)",
+      "link": "https://pillows.su/f/5c7a473bf3ecfb4c6f34206a59edd224"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Learning (prod. Casey Mattson, James & Oliver Tree)",
+      "link": "https://pillows.su/f/f7e0926facd8aa913e4448d1a926a907"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Nothing At All (prod. Imad Royal & Oliver Tree) (Yams)",
+      "link": "https://pillows.su/f/b698b26d3ae81f4a566990dc2e30f203"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "What I'm In For",
+      "link": "https://pillows.su/f/99438309eb9076999b37f760fc09a73a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Own Worst Enemy",
+      "link": "https://pillows.su/f/4d197e6ac3f1df93f5501fd46d12e6df"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Nefarious (Tree Demo C)",
+      "link": "https://pillows.su/f/794fb400756c3e8f6d2671c9e42205db"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Celebrate Life",
+      "link": "https://pillows.su/f/ba09cfa12b3add41f11ab42dcbb67662"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Over Thrown",
+      "link": "https://pillows.su/f/3aea3e7e73d66b8f1d6638cf4a6ee056"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The Science of Sleep [V1] (feat. Mothica) (prod. RogÃ©t Chahayed & Oliver Tree)",
+      "link": "https://pillows.su/f/5cb284161dfa4b48211ba3e58f5ad9d8"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Alright [V1]",
+      "link": "https://pillows.su/f/6c47632aa3e9b804fcfb3966c55de1d5"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Cool Guy (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/5cf1a05b2295cf65f19215afac252a32"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Sacrifice [V2] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/95d5f41ed3e5e3759a5f055c75f59c31"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Tooth Decay",
+      "link": "https://pillows.su/f/31972c70699d3d883772e40b33fd7894"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Sacrifice [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/95038e6b63af483001ab470b5ad1d938"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Falling Off [V1] (prod. Stint & Oliver Tree) (Waist My Time, Waste My Time, Oliver 3)",
+      "link": "https://pillows.su/f/2e7b7c6fe9b5680345d4d2df209b7c96"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Can't Do Freestyle",
+      "link": "https://i.imgur.gg/eeBww1M-RICKY_Can't_Do_Freestyle_1997_2.wav"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Life Was Never Perfect [V1] (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://i.imgur.gg/fxaEcIV-Life_Was_Never_Perfect_(Demo).mp3"
+    },
+    {
+      "era_id": "",
+      "name": "Whethan - Freefall (feat. Oliver Tree) (prod. Whethan & Oliver Tree)",
+      "link": "https://soundcloud.com/whethan/freefall"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Wobbleland 2011 Live Set",
+      "link": "https://www.youtube.com/watch?v=CUgK_RYjj2o"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Do You Hate Me... Do You Love Me (prod. NVDES, Freedo & Oliver Tree) (ref. Oliver Tree) (Another Life)",
+      "link": "https://pillows.su/f/458b244de9b1a566524429a95b6b6c90"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Introspective",
+      "link": "https://soundcloud.com/olivertree/introspective-1?in=olivertree/sets/ugly-is-beautiful-shorter-1&si=b24518f49f504a1faf76c76fcb732614&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Do You Feel Me? (feat. Whethan)",
+      "link": "https://soundcloud.com/olivertree/do-you-feel-me"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Miracle Man",
+      "link": "https://soundcloud.com/olivertree/miracle-man-1?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Alien Boy",
+      "link": "https://soundcloud.com/olivertree/alien-boy-2?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "Hurt",
+      "link": "https://soundcloud.com/olivertree/hurt-1?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "All Bets Are Off",
+      "link": "https://soundcloud.com/olivertree/all-bets-are-off"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Alien Boy",
+      "link": "https://pillows.su/f/19ace91a7fb03ec603c0ce1fe2248eb9"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "All I Got",
+      "link": "https://soundcloud.com/olivertree/all-i-got-1"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Enemy",
+      "link": "https://soundcloud.com/olivertree/enemy"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "All That",
+      "link": "https://soundcloud.com/olivertree/all-that-2"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Welcome To LA",
+      "link": "https://soundcloud.com/olivertree/welcome-to-la-1"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Upside Down",
+      "link": "https://soundcloud.com/olivertree/upside-down"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Cowboys Don't Cry",
+      "link": "https://soundcloud.com/olivertree/cowboys-dont-cry?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Swing & a Miss",
+      "link": "https://soundcloud.com/olivertree/swing-a-miss?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Freaks & Geeks",
+      "link": "https://soundcloud.com/olivertree/freaks-and-geeks?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Doormat",
+      "link": "https://soundcloud.com/olivertree/doormat?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Suitcase Full of Cash",
+      "link": "https://soundcloud.com/olivertree/suitcase-full-of-cash?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Cigarettes",
+      "link": "https://soundcloud.com/olivertree/cigarettes?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Balloon Boy",
+      "link": "https://soundcloud.com/olivertree/balloon-boy?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Things We Used to Do",
+      "link": "https://soundcloud.com/olivertree/things-we-used-to-do?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "California",
+      "link": "https://soundcloud.com/olivertree/california?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Get Well Soon",
+      "link": "https://soundcloud.com/olivertree/get-well-soon?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Playing With Fire",
+      "link": "https://soundcloud.com/olivertree/playing-with-fire?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "The Villain",
+      "link": "https://soundcloud.com/olivertree/the-villain?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Cowboy Tears",
+      "link": "https://soundcloud.com/olivertree/cowboy-tears?in=olivertree/sets/cowboy-tears"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "I Hate You",
+      "link": "https://soundcloud.com/olivertree/i-hate-you?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Placeholder",
+      "link": "https://soundcloud.com/olivertree/placeholder?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Mind Control",
+      "link": "https://soundcloud.com/olivertree/mind-control?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Wasteland",
+      "link": "https://soundcloud.com/olivertree/wasteland?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Battleship",
+      "link": "https://soundcloud.com/olivertree/battleship?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Sunshine",
+      "link": "https://soundcloud.com/olivertree/sunshine?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Replacement",
+      "link": "https://soundcloud.com/olivertree/replacement?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Oxymoron",
+      "link": "https://soundcloud.com/olivertree/oxymoron?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "Crash Test Dummy",
+      "link": "https://soundcloud.com/olivertree/crash-test-dummy?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "The Exploding Man",
+      "link": "https://soundcloud.com/olivertree/the-exploding-man?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-cowboy",
+      "name": "A-Okay",
+      "link": "https://soundcloud.com/olivertree/a-okay?in=olivertree/sets/cowboy-tears-deluxe"
+    },
+    {
+      "era_id": "era-welcome",
+      "name": "The Internet",
+      "link": "https://soundcloud.com/olivertree/the-internet?in=olivertree/sets/welcome-to-the-internet"
+    },
+    {
+      "era_id": "era-welcome",
+      "name": "Turn It Up",
+      "link": "https://soundcloud.com/olivertree/turn-it-up?in=olivertree/sets/welcome-to-the-internet"
+    },
+    {
+      "era_id": "era-welcome",
+      "name": "Rampampam",
+      "link": "https://soundcloud.com/olivertree/rampampam?in=olivertree/sets/welcome-to-the-internet"
+    },
+    {
+      "era_id": "era-welcome",
+      "name": "You're Not There",
+      "link": "https://soundcloud.com/olivertree/youre-not-there?in=olivertree/sets/welcome-to-the-internet"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Life Goes On",
+      "link": "https://soundcloud.com/olivertree/life-goes-on?in=olivertree/sets/ugly-is-beautiful-deluxe"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "1993 (feat. Little Ricky ZR3)",
+      "link": "https://soundcloud.com/olivertree/1993-feat-little-ricky-zr3?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Cash Machine",
+      "link": "https://soundcloud.com/olivertree/cash-machine?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Let Me Down",
+      "link": "https://soundcloud.com/olivertree/letmedown?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Miracle Man",
+      "link": "https://soundcloud.com/olivertree/miracle-man?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Bury Me Alive",
+      "link": "https://soundcloud.com/olivertree/burymealive?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Alien Boy",
+      "link": "https://soundcloud.com/olivertree/alien-boy-3?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Joke's On You!",
+      "link": "https://soundcloud.com/olivertree/jokes-on-you?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Again & Again",
+      "link": "https://soundcloud.com/olivertree/again-again?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Waste My Time",
+      "link": "https://soundcloud.com/olivertree/waste-my-time?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Jerk",
+      "link": "https://soundcloud.com/olivertree/jerk?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Hurt",
+      "link": "https://soundcloud.com/olivertree/hurt?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Introspective",
+      "link": "https://soundcloud.com/olivertree/introspective?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "I'm Gone",
+      "link": "https://soundcloud.com/olivertree/im-gone?in=olivertree/sets/ugly-is-beautiful"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Every Type of Friend",
+      "link": "https://soundcloud.com/olivertree/every-type-of-friend-1?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Out of Ordinary",
+      "link": "https://soundcloud.com/olivertree/out-of-ordinary-1?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Swimmer's Delight (SOS)",
+      "link": "https://soundcloud.com/olivertree/swimmers-delight-sos?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "When You're Around",
+      "link": "https://soundcloud.com/olivertree/when-youre-around-1?in=olivertree/sets/ugly-is-beautiful-shorter-1"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Circuits",
+      "link": "https://pillows.su/f/54f17f6f5e9117ed70b78414586e888f"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Sun",
+      "link": "https://pillows.su/f/a923dab71c930216a5f0aac0df04a39b"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Money Talks",
+      "link": "https://pillows.su/f/08a917660fd5176617d7cd2ebb1bd1ac"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "IAFWY",
+      "link": "https://pillows.su/f/138bc0b76ceecff3327f289ca197d8d3"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Shut Me Up",
+      "link": "https://pillows.su/f/353c17826b059653ffa72bd4d27064ef"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Still Around",
+      "link": "https://pillows.su/f/66bf73545483a3b958b01d2dbe6f32ee"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "This Time",
+      "link": "https://pillows.su/f/caa4e7fd8853d2af27d020199b5192bc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Shining Star (prod. Oliver Tree & Jesse Nickell) (Demo G)",
+      "link": "https://pillows.su/f/e18f53d1fb55e29a5456e11abb996d27"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Left Alone (Flume Cover) (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/9fad7f5cc65daa5a29d598ebfee6f353"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My People [V1] (prod. Louis The Child, Blaise Railey & Oliver Tree)",
+      "link": "https://pillows.su/f/844759aa3e14c50ada3ce5136079809a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "No Regrets (feat. Blaise) (prod. Whethan, Louis The Child, Imad Royal & Oliver Tree) (Live It Out)",
+      "link": "https://pillows.su/f/12fa61e5c6766de3115a0aff0881580a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Off Guard",
+      "link": "https://pillows.su/f/f2480495b3fa2ef1e1464dba68f10fd3"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Overstay [V1] (feat. Blaise & SATICA) (prod. AOBeats & Oliver Tree)",
+      "link": "https://pillows.su/f/df123c51e5669f79d6d52c91ecb61ecc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Overstay [V2] (feat. Blaise & SATICA) (prod. AOBeats & Oliver Tree)",
+      "link": "https://pillows.su/f/df123c51e5669f79d6d52c91ecb61ecc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Round 1 Act 1 (Quick Mix) (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/00dfcad664f166c037ca0b71ccf86576"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Round 1 Act 5 (Quick Mix)",
+      "link": "https://pillows.su/f/023550f643cd2e8347a2426dc4eb1d3d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Round 1 Act 7 [V2] (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/73f86f1ebe2981878da7b5b2ba4380da"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Round 2 Act 2 [V2]",
+      "link": "https://pillows.su/f/0bbe9e492c5f6892fb6f5ccd1a9219ab"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Running Your Mouth (prod. Shelf Nunny & Oliver Tree) (Pitch Perfect Perspective)",
+      "link": "https://pillows.su/f/8add5329488c44b98a5cfeae8aebd7af"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Spook Me Out (prod. Louis The Child & Oliver Tree) (I Spooked Myself)",
+      "link": "https://pillows.su/f/254ffe203dbcf91e770238015b4caeac"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Still Alive* (prod. Louis The Child & Oliver Tree)",
+      "link": "https://pillows.su/f/efb714f0098b6ebb226fff5b015817cf"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Fuckin' Up [V1] (prod. Whethan, Oliver Tree & Michael Leary) (Hurt)",
+      "link": "https://pillows.su/f/0ede162c4be780830faf16b925c95d67"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Robert Koch - Cheapskate [V1] (prod. Robert Koch)",
+      "link": "https://pillows.su/f/5ea51ea01d77674b571652f19b0830d6"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Movement [V1] (prod. Whethan & Oliver Tree) (Movements)",
+      "link": "https://pillows.su/f/465646f4a3c10d29cba4d4a9efe2bf69"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Money Talks [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/4318d4066fe936e0480847faa53b4349"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All I Got [V1] (prod. Whethan, Oliver Tree & Jesse Nickell)",
+      "link": "https://pillows.su/f/0c8f242a99965ec89383164f4bb4681e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All That [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/9dfd709f0e0d76f4c7f7e12050c18dd4"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Welcome to LA [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/c8ad741f41f6625f5ccf3e12a7a5147a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Again & Again [V1] (prod. NVDES & Oliver Tree)",
+      "link": "https://pillows.su/f/dca3cc6a471193885c62dcfbaf1f1639"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Come Again [V1] (prod. Casey Mattson, Oliver Tree & Dylan Wiggins) (All in All, Oliver Glenwood D)",
+      "link": "https://pillows.su/f/feebde911e703c10e64e3396ff09f6d7"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": " Bury Me Alive [V1] (prod. Trevor Brown, William Simmons & Oliver Tree)",
+      "link": "https://pillows.su/f/d713b4064de4ff7428193e8534542614"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Lies Came Out My Mouth [V1] (prod. Whethan, Oliver Tree & Dylan Wiggins)",
+      "link": "https://pillows.su/f/6de246451a2d93f783a27bd23b187f1e"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Life Goes On [V3] (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/7106f268c49bfe08bbc715901363c3ca"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Out of Ordinary [V1] (prod. Whethan, Casey Mattson & Oliver Tree) (Ordinary)",
+      "link": "https://pillows.su/f/33c45b5778b32ad379ff26c68731eebb"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Waste My Time [V6] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
+      "link": "https://pillows.su/f/aff320d39b5a25e76eb17fe9a54576fc"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Bury Me Alive [V4] (prod. Trevor Brown, William Simmons & Oliver Tree)",
+      "link": "https://pillows.su/f/cec4eb9c9b60ea0724b5fec1e13609ce"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Joke's On You! [V5] (prod. Stint, Oliver Tree & RogÃ©t Chahayed)",
+      "link": "https://pillows.su/f/d06ea150a33201926994c2bb25ffa55a"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Waste My Time [V7] (prod. Stint & Oliver Tree) (Waist My Time, Falling Off, Oliver 3)",
+      "link": "https://pillows.su/f/6cfe3b3000f3e4ecad7db5cc72cecc37"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Day Gone [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/524c3f4d6dc0d2626d75471b5387cdb5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Doo Doo [V1] (prod. Getter, Oliver Tree & Casey Mattson)",
+      "link": "https://pillows.su/f/69509444bcb70e1e2a7398ffddca2c7a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Lights Off [V1]",
+      "link": "https://pillows.su/f/4699fcf31b29a9df61618bae07d4bec5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " My Girl [V1] (prod. Imad Royal & Oliver Tree)",
+      "link": "https://pillows.su/f/21842345b7b92dc85af84d44e497eeb0"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " My Girl [V2] (prod. Imad Royal & Oliver Tree)",
+      "link": "https://pillows.su/f/f51e93b2f46d3794d87fbca94645fd08"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All You Ever Wanted [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/583286d089121ee1b29b3999c40e0aeb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crazy [V1] (prod. Oliver Tree) (Song14)",
+      "link": "https://pillows.su/f/84b122eb8d07d36aa1feca2996fc0ff9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Death Ray [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/9e1e452874155d83ae76329a90326e45"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Dirty [V1] (prod. Oliver Tree) (Tokyo Idea 5)",
+      "link": "https://pillows.su/f/78aee3da250c5a864f53b38929d4e9e8"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Flowers On My Tombstone [V1] (prod. Oliver Tree) (Flowers, Tokyo Idea 1)",
+      "link": "https://pillows.su/f/902bef3af75eb96980598aa5b9f9264c"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Halo [V1] (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/c6d8e5b9127a11350a6373ae333c5ac6"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hey Shorty [V1] (prod. Oliver Tree) (Uzbekistan Idea 2)",
+      "link": "https://pillows.su/f/b0ba465057e8c163bbbe428e431df80c"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "How It Ends [V1] (prod. Oliver Tree) (Jamaica Idea 1)",
+      "link": "https://pillows.su/f/4c066c6d050c806f17236f11f46a2adf"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Need You [V1] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/5816519a952483140d1343755c261436"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Joyride [V3] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/e7cd3978593b76cabff9aee3a29e04ed"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "My Only Friend [V1] (prod. Oliver Tree) (Euro Idea 18, Song18)",
+      "link": "https://pillows.su/f/8d85c0122d3c66a1e76cd5be3a703449"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Things We Used to Do [V3] (prod. John Hill & Oliver Tree)",
+      "link": "https://pillows.su/f/0b07e78f591a04786079230a359d7fc5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Battleship [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/d8dbd15a1867ccd86b88f7baa84e958e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Sunshine [V1] (prod. Whethan, Tim Randolph & Oliver Tree)",
+      "link": "https://pillows.su/f/b4016f5a632a289dcb302f730980199f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Things We Used to Do [V1] (prod. John Hill & Oliver Tree)",
+      "link": "https://pillows.su/f/c9e184eb87be2647d0d3536307adc305"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Hold On (SBTRKT Remix) (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/de3577913a02ff2963d9edfc6c78cd24"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Full Speed No Brakes [V1] (prod. Whethan & Oliver Tree) (Full Speed No Breaks)",
+      "link": "https://pillows.su/f/6d71d3799f285e973a18a3d9cf5fb0db"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Invisible Man [V1] (prod. Imad Royal, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/72aa7d6a0d76770c91802cec84eb580b"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Lies [V2] (prod. RogÃ©t Chahayed & Oliver Tree)",
+      "link": "https://pillows.su/f/d995a9e80467c1fa15bbc3a8f1d9b55b"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Against Myself",
+      "link": "https://pillows.su/f/b2419f75bbf7baccb9356ddf215914e5"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Come On (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/ef01b25d3383af881ed1b09a0647bba8"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Cruel (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/2f64e65874d086a80a79db9b45a85ba6"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Shut Me Up (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/57fecfef461d44eff97a339ff17c9559"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Theme Song (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/b7daa5b316de39c28fb6165f65b76b4f"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "I Ain't Fucking With You",
+      "link": "https://pillows.su/f/998299d2926a421b3f83c18812bc6cb5"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "No More (prod. NVDES & Oliver Tree)",
+      "link": "https://pillows.su/f/699ca708929c6cd273d6a826595915c5"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Call Me",
+      "link": "https://pillows.su/f/172109c9aa7c18d6e694c11b517e97e9"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": " Grass Is Greener",
+      "link": "https://pillows.su/f/e2c4f899366c0a9172e5ffa1407e3913"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": " One Day",
+      "link": "https://pillows.su/f/084c71186868e67ade57d007f257ab29"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Screaming in my Sleep",
+      "link": "https://pillows.su/f/4265c996dc12b626bf218b4314c962d2"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": " Sugar Coat",
+      "link": "https://pillows.su/f/aca335973893efe447ae56568c3f624f"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "The Kind of Life We Live",
+      "link": "https://pillows.su/f/39f3e7b09d00d4073cca72558317ebcb"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Me, Myself, & I (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/7fd52368514f0012efc60d6f9cf866f0"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Let Me Down (prod. Whethan, David Pramik & Oliver Tree)",
+      "link": "https://pillows.su/f/a15576740e2e1a9c9229bebf1f153654"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Miracle Man [V3] (prod. David Pramik & Oliver Tree) (The Miracle Man)",
+      "link": "https://pillows.su/f/cbd4cde3820b8d37394cf9b34febd8c3"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Hurt [V4] (prod. Whethan, Oliver Tree & Michael Leary) (Fuckin' Up)",
+      "link": "https://pillows.su/f/03314efab11ff766ce231d8cc0cbd54d"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Introspective (prod. Andrew Goldstein & Oliver Tree)",
+      "link": "https://pillows.su/f/b95a12614dd4baadb39935296ba76a47"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Girl On The Corner (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/0faf17235f7465199c35326dc453968c"
+    },
+    {
+      "era_id": "era-tree",
+      "name": "Jungle Jam",
+      "link": "https://pillows.su/f/41ebd83a3149b4064dbbf729b6a19202"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Introducing SQUIRT (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/277aee6fd600e9eb6b62f6c015a82b60"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Clean Up Your Mess (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/ee3b29d1b1ad0d147673209cd3864f27"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Workin' (prod. Getter & Oliver Tree)",
+      "link": "https://pillows.su/f/9a07a44e5ad2e00dc16c694c9faba6d7"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Cool Out [V3] (prod. Whethan, RogÃ©t Chahayed & Oliver Tree) (Pull Out)",
+      "link": "https://pillows.su/f/dc153ef9cf63359b0488a86f46c0689b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " For Long",
+      "link": "https://pillows.su/f/e83911dddf3af8f4f2269ad9f14d22a4"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hoops",
+      "link": "https://pillows.su/f/7489f2af45983bcbfa1d92e9fbc38302"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Monday Night",
+      "link": "https://pillows.su/f/afa8bf89eb6ce8446b54b1855d557a07"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Penthouse (feat. Rico Nasty)",
+      "link": "https://pillows.su/f/31b2725415ea44882048f866e3e3cfb0"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Stay the Night",
+      "link": "https://pillows.su/f/2603c6909e4e691a3921f5ca3f34822a"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Zoom Zoom",
+      "link": "https://pillows.su/f/bed1c1fa0aa6a3cead7c1aec08636f69"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Shorty [V1] (Rush & Rollet)",
+      "link": "https://pillows.su/f/967729e860118afdeae1780d3abe5430"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Fuck The Whole World (prod. Oliver Tree) (Lullaby, Song 19)",
+      "link": "https://pillows.su/f/1696e4d4560f2b20c40cbbae8ed3a6fc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Dead & Forgotten (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/ed9c770c906c41c2450d0d2b51c255a0"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Heaven & Hell",
+      "link": "https://pillows.su/f/3e24c12cea8d138ccd79f21c8c292bd9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Musical Chairs (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/0d756e91f4d64fa057eb519b8ab32418"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Showdown",
+      "link": "https://pillows.su/f/c97415281e914bf6eb690d965f458539"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Will This Be War (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/9958c9e20bb9869c6f7acde01d9282d6"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Balloon Boy (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/574c0ecdcb4756a0ab3cf5ec1e09c34d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "California (prod. Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/c87f9563794e00a32090a1a3dad5f787"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Cigarettes (prod. Nick Long, Oliver Tree & Travis Barker)",
+      "link": "https://pillows.su/f/042d3c95aad44edd1ee0efafa6f28fd5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Cowboy Tears (prod. Marshmello & Oliver Tree)",
+      "link": "https://pillows.su/f/8e25ffe7b3509e95cb06ddbb820ac255"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crash Test Dummy (prod. Nick Long, Whethan, Oliver Tree & Travis Barker) (You're a Crash Test Dummy)",
+      "link": "https://pillows.su/f/7b14bc7c9cc84907537635637061681c"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Hate You (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/f75ffb6e05c1d6fbc2e47d41e6e9d2f4"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Mind Control (prod. Nick Long & Oliver Tree)",
+      "link": "https://pillows.su/f/d8707ba546a4eea7ed79cb45bfcdb48f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Swing & A Miss (prod. John Hill, Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/e1f3d211727a9d898765671de2cda8f9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The Exploding Man (prod. Nick Long, Oliver Tree & Travis Barker)",
+      "link": "https://pillows.su/f/39d6771a9c7c754e68c4f4c8b11e45f2"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The Villain [V2] (prod. Ilan Rubin, Imad Royal & Oliver Tree) (Villains, What U Waiting For)",
+      "link": "https://pillows.su/f/ca574a4a12bc3ce0ed9c3861021feb95"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "Wasteland (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/77b2c922e7f4c52c3fd3c5af66fc264b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "What Did I Do (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/9b29112d9b963b72aa7d32c9aa0078a9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Keep Your Head Up",
+      "link": "https://pillows.su/f/c5c58b9e9384754b0193e20fca0596de"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "All You Ever Talk About (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/c25185a43b8dcb579584fc64341e3f9e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Alright [V2]",
+      "link": "https://pillows.su/f/6c47632aa3e9b804fcfb3966c55de1d5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Anything (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/4486349fc72a5e6bd700a77029a0e4cd"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Celebrate Life",
+      "link": "https://pillows.su/f/1a86ce7318bffa2ea1ef364cfe7f7613"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Hold On (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/de3577913a02ff2963d9edfc6c78cd24"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " LA Guitar Jam 1",
+      "link": "https://pillows.su/f/ec6dc3d55cd595d1eb50706413cef4cb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Let It All Out (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/e0e4517432bb401624035c420e65ab3b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The Science of Sleep [v2] (feat. Mothica) (prod. RogÃ©t Chahayed & Oliver Tree)",
+      "link": "https://pillows.su/f/5cb284161dfa4b48211ba3e58f5ad9d8"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Too Long (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/5c5a1781d499ee970417217e68041933"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Try And Stop Me [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/55d483eef83d41188612f0ce2dc8e41b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " When You Need Me (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/6980b568339daaef4d2e7ef565e92904"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Chasing Storms (prod. Ari Gumora & Oliver Tree)",
+      "link": "https://pillows.su/f/190e128117c3b3e8cae19a2f6c4cff15"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Diplo - Day One (feat. Oliver Tree)",
+      "link": "https://pillows.su/f/75ec30fa995af84fc0246ca248b79ff2"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Bad Actor",
+      "link": "https://pillows.su/f/e47ee88d62eed9fc4b94cf4c2709fc9e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Runnin' On Empty",
+      "link": "https://pillows.su/f/2a1275f0669e56f8b57964b0a9572ea9"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Push Me Out The Window [V2]",
+      "link": "https://pillows.su/f/c950a7671c599b51fa592751c25c89ac"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Essence (feat. Super Computer) (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/d9dc5fac8d5a61ec7eda9fb1da984f6e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Fairweather Friends [V2] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/43eac348597f52ba619a6a33895cb7fb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Highlight of my Life (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/869fd749d0d8cd5155533e624c78abcb"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Invisible Man [V3] (prod. Imad Royal, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/66a21088bc859670187bcfd2a7885eda"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Crazy [V7] (prod. Oliver Tree) (Song14)",
+      "link": "https://pillows.su/f/3b2e60b3f5adf63a3b0459e54e2f8fa2"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Death Ray [V2] (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/ff95607335b966d9a6f695007426ed56"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Deep End [V3] (prod. Oliver Tree) (Song5)",
+      "link": "https://pillows.su/f/6b2949462c8e39d3f4b059c6bf360b4f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Glow On [V1]",
+      "link": "https://pillows.su/f/91a95ca778d73e98400f616958a3b85b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "I Want You* (prod. Oliver Tree)",
+      "link": "https://pillows.su/f/955192b8fc748a0f154ef648363e905b"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "1993 (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/824e5e2d5110e4980f4341dfb8ea6dc0"
+    },
+    {
+      "era_id": "era-ugly",
+      "name": "I'm Gone (prod. Dylan Wiggins & Oliver Tree)",
+      "link": "https://pillows.su/f/282a5a6466bd4eb3b7bf6c21cef381e5"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Swimmer's Delight (SOS) [V1] (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/4386ef0d6cec5d77db1e5df8b1090fae"
+    },
+    {
+      "era_id": "era-alien",
+      "name": "Upside Down [V1] (prod. NVDES, Casey Mattson & Oliver Tree) (Oliver Glenwood E)",
+      "link": "https://pillows.su/f/2ee490c1e02ed4f7f7643bc9fbbccf78"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "When You Wake Up (prod. Sahy Uhnz & Oliver Tree) (Demo B)",
+      "link": "https://pillows.su/f/1b1eb7a25941cdb80a2c330356e13225"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "A-Okay [V1] (prod. Nick Long, Oliver Tree, Travis Barker & Kevin Gruft)",
+      "link": "https://pillows.su/f/60c87b174ed5715b8ea2ac058d9db981"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Battleship [V2] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/9562ff510127e4985bb88437833ba2e2"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Door Mat (prod. Whethan, Casey Mattson & Oliver Tree) (Doormat)",
+      "link": "https://pillows.su/f/f8e96f61dbaf623c3fdb5ecd2cadb667"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Freaks & Geeks (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/3efbe79058a22551bace1a937b4ca00d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Get Well Soon (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/e8bc850cba211324bc12dd7cd20bc4af"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Oxymoron (prod. Whethan, Oliver Tree & Dylan Wiggins)",
+      "link": "https://pillows.su/f/f3b64a34ef86bdd40afca3f7a8a43d2b"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Placeholder (prod. Nick Long, Oliver Tree & Travis Barker) (Place Holder)",
+      "link": "https://pillows.su/f/5bb293cac8b494e77e31a6bdd04231fc"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Better Off Dead (prod. Nick Long, Oliver Tree & Travis Barker) (Replacement)",
+      "link": "https://pillows.su/f/8bf85f435de11b0bddf462055af6ec98"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Suitcase Full of Cash  (prod. Nick Long, Oliver Tree & Travis Barker)",
+      "link": "https://pillows.su/f/18c74579c62b43251403b1191883fc24"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Kamikaze",
+      "link": "https://pillows.su/f/ab8c85c5dc7ec63c40d75f5adc4fa7a6"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": " Villains [V3] (prod. Ilan Rubin, Imad Royal & Oliver Tree) (The Villain, What U Waiting For)",
+      "link": "https://pillows.su/f/24906113446065861878c1beb919c10f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Bounce [V6] (prod. Digital Farm Animals, Will Vaughan, Oliver Tree & Matt Zara) (Up & Down)",
+      "link": "https://pillows.su/f/233403b00ca4fdd33bcc9c28128fcb99"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Elevator to the Sky (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/04480bd7815595f8994f45d6dfbea8f1"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Essence [Super Computer Ver.]",
+      "link": "https://pillows.su/f/be9871735c07d43e0e502c4349908e4f"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Fairweather Friends [V1] (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/a2c89d077f7de848023cdef253599c72"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "One & Only [V2] (prod. Digital Farm Animals, Mojam, Oliver Tree & Will Vaughan) (What I Live For)",
+      "link": "https://pillows.su/f/47a2798eab3ed9a1132b45a3cb3e5123"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Smile (prod. Whethan & Oliver Tree)",
+      "link": "https://pillows.su/f/7a511b9b4b576698c2369affa7c8219e"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Star (prod. Whethan, Oliver Tree & JKash)",
+      "link": "https://pillows.su/f/7983df9de1452fb5d6a5bd7f19d7742d"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "The First Night (prod. Oliver Tree & Charlie Handsome) (First Night)",
+      "link": "https://pillows.su/f/65a88ee37569a1110ead1be172f804ed"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "With You (prod. Whethan, Casey Mattson & Oliver Tree)",
+      "link": "https://pillows.su/f/29a1e130d471ee13fa17ff4d3105e92f"
+    }
+  ],
   "submissions": [
     {
       "id": "sub_1786325346175_qy7y9",
@@ -20,7 +2044,5 @@
       "submitted": "2026-08-10T01:29:06.175Z",
       "reviewed": "2026-08-10T01:29:24.439Z"
     }
-  ],
-  "approvals": [],
-  "version": 1
+  ]
 }
