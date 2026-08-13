@@ -627,6 +627,11 @@
       "era_id": "era-kryph",
       "name": "ID_Little_Ricky_Instrumental_1_Snippet_-_Recording",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "ID_Little_Ricky_Instrumental_2_Snippet_-_Recording",
+      "to_era_id": "era-ugly"
     }
   ],
   "links": [
