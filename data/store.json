@@ -512,6 +512,11 @@
       "era_id": "era-kryph",
       "name": "SUPER COMPUTER - GOOD NEWS",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "SUPER COMPUTER - LETS GO",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
