@@ -482,6 +482,11 @@
       "era_id": "era-turbo",
       "name": "Love U Hate U (prod. Oliver Tree) (Kazakhstan Idea 2)",
       "to_era_id": "era-lymhyb"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Essence Remix 2",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
