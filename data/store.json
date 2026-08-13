@@ -2505,6 +2505,20 @@
       "approval": "approved",
       "submitted": "2026-08-13T02:11:01.609Z",
       "reviewed": "2026-08-13T02:11:03.705Z"
+    },
+    {
+      "id": "sub_1786587065245_lwra8",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Lo Fly Beat Unknown 2",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/d49db0693b34723e31f7d9cd26f41a4f",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:11:05.245Z"
     }
   ]
 }
