@@ -602,6 +602,11 @@
       "era_id": "era-kryph",
       "name": "Waisted Years",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Waisted Years idea",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
