@@ -537,6 +537,11 @@
       "era_id": "era-kryph",
       "name": "SUPER COMPUTER - WELCOME",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-dyfm",
+      "name": "The Dummest Man On Earth",
+      "to_era_id": "era-cowboy"
     }
   ],
   "links": [
