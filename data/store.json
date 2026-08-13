@@ -592,6 +592,11 @@
       "era_id": "era-kryph",
       "name": "Put Your Shoes On (Update)",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Put Your Shoes On Fab Master (1)",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
