@@ -2488,9 +2488,22 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/71dfb90987dc1d07aa6eb00fe08a8f1e",
       "sub_type": "new",
-      "approval": "approved",
-      "submitted": "2026-08-13T02:10:57.434Z",
-      "reviewed": "2026-08-13T02:11:00.095Z"
+      "approval": "pending",
+      "submitted": "2026-08-13T02:10:57.434Z"
+    },
+    {
+      "id": "sub_1786587061609_phq0q",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Lo Fly Beat Unknown 1",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/a7b2bfaf8e75713d025bd304362ebd0f",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:11:01.609Z"
     }
   ]
 }
