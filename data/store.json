@@ -542,6 +542,11 @@
       "era_id": "era-dyfm",
       "name": "The Dummest Man On Earth",
       "to_era_id": "era-cowboy"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Circuits Draft 5",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
