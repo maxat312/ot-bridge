@@ -2560,8 +2560,9 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/a0ffc58c7656d87a9f0cc3d12ad71ffe",
       "sub_type": "new",
-      "approval": "pending",
-      "submitted": "2026-08-13T02:12:03.778Z"
+      "approval": "approved",
+      "submitted": "2026-08-13T02:12:03.778Z",
+      "reviewed": "2026-08-13T02:12:06.198Z"
     }
   ]
 }
