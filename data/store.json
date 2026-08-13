@@ -612,6 +612,11 @@
       "era_id": "era-kryph",
       "name": "Easy Does It (feat. Noosa)",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Easy Does It no verses (feat. Noosa)",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
