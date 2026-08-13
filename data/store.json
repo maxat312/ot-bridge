@@ -2910,9 +2910,22 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/b4b20e660a0c9ab2a2278eead2c906f6",
       "sub_type": "new",
-      "approval": "approved",
-      "submitted": "2026-08-13T02:13:40.945Z",
-      "reviewed": "2026-08-13T02:13:43.823Z"
+      "approval": "pending",
+      "submitted": "2026-08-13T02:13:40.945Z"
+    },
+    {
+      "id": "sub_1786587225510_m8f05",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Love is Gone- Oliver Nickell plus 2",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/b2e6d75e669c77517eacac572e825da8",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:13:45.510Z"
     }
   ]
 }
