@@ -2636,6 +2636,20 @@
       "approval": "approved",
       "submitted": "2026-08-13T02:12:24.432Z",
       "reviewed": "2026-08-13T02:12:27.630Z"
+    },
+    {
+      "id": "sub_1786587149252_ccah2",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Kimbra - Settle Down (tree & docko's remix)",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/79ed25405df32d9d6034f035fc765f45",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:12:29.252Z"
     }
   ]
 }
