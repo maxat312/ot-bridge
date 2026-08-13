@@ -492,6 +492,11 @@
       "era_id": "era-kryph",
       "name": "Essence Remix 3",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "SUPER COMPUTER - BURNING DOWN THE HOUSE (Alt)",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
