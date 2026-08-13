@@ -487,6 +487,11 @@
       "era_id": "era-kryph",
       "name": "Essence Remix 2",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Essence Remix 3",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
