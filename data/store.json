@@ -532,6 +532,11 @@
       "era_id": "era-kryph",
       "name": "SUPER COMPUTER - SELFTITLED",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "SUPER COMPUTER - WELCOME",
+      "to_era_id": "era-cowboy"
     }
   ],
   "links": [
