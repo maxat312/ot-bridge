@@ -587,6 +587,11 @@
       "era_id": "era-kryph",
       "name": "Overstay new",
       "to_era_id": "era-alien"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Put Your Shoes On (Update)",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
