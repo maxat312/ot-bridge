@@ -2173,6 +2173,20 @@
       "approval": "approved",
       "submitted": "2026-08-13T02:09:36.866Z",
       "reviewed": "2026-08-13T02:09:39.095Z"
+    },
+    {
+      "id": "sub_1786586980369_yodc6",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Sacred Elements (ft. Finn Rivera)",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/cec3e7cc452dab2170280b5a9505d65b",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:09:40.369Z"
     }
   ]
 }
