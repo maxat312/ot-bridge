@@ -2474,9 +2474,22 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/2d2e58d45506029e80414a121f0c9a92",
       "sub_type": "new",
-      "approval": "approved",
-      "submitted": "2026-08-13T02:10:53.185Z",
-      "reviewed": "2026-08-13T02:10:56.022Z"
+      "approval": "pending",
+      "submitted": "2026-08-13T02:10:53.185Z"
+    },
+    {
+      "id": "sub_1786587057434_d3d6n",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Stuck Down the Wrong Rabbit Hole [MV Version]",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/71dfb90987dc1d07aa6eb00fe08a8f1e",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:10:57.434Z"
     }
   ]
 }
