@@ -2343,9 +2343,22 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/8981f935e079e44459c2454d7286a1e6",
       "sub_type": "new",
-      "approval": "approved",
-      "submitted": "2026-08-13T02:10:21.088Z",
-      "reviewed": "2026-08-13T02:10:23.285Z"
+      "approval": "pending",
+      "submitted": "2026-08-13T02:10:21.088Z"
+    },
+    {
+      "id": "sub_1786587025046_rizq6",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "name": "Tree - Karma Police",
+      "notes": "",
+      "length": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "link": "https://pillows.su/f/c07cb9f0757eaca4e2d75c6849ae49f3",
+      "sub_type": "new",
+      "approval": "pending",
+      "submitted": "2026-08-13T02:10:25.046Z"
     }
   ]
 }
