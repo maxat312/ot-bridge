@@ -562,6 +562,16 @@
       "era_id": "era-kryph",
       "name": "Oliver Tree - Doubt It",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Full Speed No Brakes update",
+      "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-kryph",
+      "name": "Full Speed No Brakes V3",
+      "to_era_id": "era-turbo"
     }
   ],
   "links": [
