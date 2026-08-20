@@ -10457,6 +10457,22 @@
       "approval": "approved",
       "submitted": "2026-08-13T02:31:43.834Z",
       "reviewed": "2026-08-13T02:31:43.834Z"
+    },
+    {
+      "id": "sub_1787226673975_iul1r",
+      "era_id": "era-lymhyb",
+      "era_name": "Love You Madly (2026)",
+      "sub_type": "new",
+      "name": "I Want You Do You Want Me To",
+      "existing_track": "",
+      "link": "https://pillows.su/f/496bef384cd0aa18b4f740bfd7a94aa2",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-08-20T11:51:13.975Z"
     }
   ]
 }
