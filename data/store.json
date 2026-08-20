@@ -2879,8 +2879,9 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/26a626b201669f26ddf577153fbbaf53",
       "sub_type": "new",
-      "approval": "pending",
-      "submitted": "2026-08-13T02:12:12.057Z"
+      "approval": "approved",
+      "submitted": "2026-08-13T02:12:12.057Z",
+      "reviewed": "2026-08-20T11:45:38.086Z"
     },
     {
       "id": "sub_1786587135615_4w8e0",
@@ -2893,9 +2894,8 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/adfe9539246cf0a1520b104ac775e113",
       "sub_type": "new",
-      "approval": "approved",
-      "submitted": "2026-08-13T02:12:15.615Z",
-      "reviewed": "2026-08-20T11:45:39.778Z"
+      "approval": "pending",
+      "submitted": "2026-08-13T02:12:15.615Z"
     },
     {
       "id": "sub_1786587140261_6p707",
@@ -3070,8 +3070,9 @@
       "display_status": "Unreleased",
       "link": "https://pillows.su/f/cd9f979b8a887e646b9526211168f71b",
       "sub_type": "new",
-      "approval": "pending",
-      "submitted": "2026-08-13T02:13:04.217Z"
+      "approval": "approved",
+      "submitted": "2026-08-13T02:13:04.217Z",
+      "reviewed": "2026-08-20T11:45:42.958Z"
     },
     {
       "id": "sub_1786587187227_hf2nl",
