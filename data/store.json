@@ -10508,6 +10508,22 @@
       "approval": "approved",
       "submitted": "2026-08-20T11:52:27.536Z",
       "reviewed": "2026-08-20T11:52:44.490Z"
+    },
+    {
+      "id": "sub_1787308591261_koxok",
+      "era_id": "era-turbo",
+      "era_name": "Turbo (2016–2017)",
+      "sub_type": "new",
+      "name": "One Day",
+      "existing_track": "",
+      "link": "",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-08-21T10:36:31.261Z"
     }
   ]
 }
