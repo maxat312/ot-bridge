@@ -10570,8 +10570,10 @@
       "notes": "",
       "length": "",
       "submitter_note": "",
-      "approval": "pending",
-      "submitted": "2026-08-23T16:42:29.676Z"
+      "approval": "declined",
+      "submitted": "2026-08-23T16:42:29.676Z",
+      "reviewed": "2026-08-23T16:42:56.737Z",
+      "reviewed_by": "itsforsan06969_72844"
     }
   ]
 }
