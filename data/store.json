@@ -10606,8 +10606,10 @@
       "notes": "",
       "length": "",
       "submitter_note": "",
-      "approval": "pending",
-      "submitted": "2026-08-24T14:11:39.111Z"
+      "approval": "declined",
+      "submitted": "2026-08-24T14:11:39.111Z",
+      "reviewed": "2026-08-24T14:11:56.157Z",
+      "reviewed_by": "mr.mooxington"
     }
   ]
 }
