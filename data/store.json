@@ -10592,6 +10592,22 @@
       "submitted": "2026-08-23T16:45:50.356Z",
       "reviewed": "2026-08-23T16:45:56.973Z",
       "reviewed_by": "mr.mooxington"
+    },
+    {
+      "id": "sub_1787580699111_imq3b",
+      "era_id": "era-lymhyb",
+      "era_name": "Love You Madly (2026)",
+      "sub_type": "new",
+      "name": "123",
+      "existing_track": "",
+      "link": "https://kappa.lol/jzpxVa.mp3",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-08-24T14:11:39.111Z"
     }
   ]
 }
