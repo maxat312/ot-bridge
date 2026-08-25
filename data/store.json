@@ -10628,6 +10628,22 @@
       "submitted": "2026-08-25T13:45:55.463Z",
       "reviewed": "2026-08-25T13:46:45.593Z",
       "reviewed_by": "mr.mooxington"
+    },
+    {
+      "id": "sub_1787665826802_rwj4v",
+      "era_id": "era-kryph",
+      "era_name": "Kryph (2010–2011)",
+      "sub_type": "new",
+      "name": "t1",
+      "existing_track": "",
+      "link": "https://kappa.lol/jzpxVa.mp3",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-08-25T13:50:26.802Z"
     }
   ]
 }
