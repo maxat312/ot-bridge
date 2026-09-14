@@ -10669,6 +10669,22 @@
       "submitted": "2026-08-27T17:08:15.738Z",
       "reviewed": "2026-08-27T17:08:23.365Z",
       "reviewed_by": "mr.mooxington"
+    },
+    {
+      "id": "sub_1789424672478_jufzx",
+      "era_id": "era-ugly",
+      "era_name": "Ugly Is Beautiful (2020–2021)",
+      "sub_type": "new",
+      "name": "Cash Machine.flac",
+      "existing_track": "",
+      "link": "https://drive.google.com/file/d/1oXdcsDvr5BZjpdatjvUvzAThpcErcMlM/view?usp=drive_link",
+      "css_status": "unreleased",
+      "display_status": "Unreleased",
+      "notes": "",
+      "length": "",
+      "submitter_note": "",
+      "approval": "pending",
+      "submitted": "2026-09-14T22:24:32.478Z"
     }
   ],
   "added": [
