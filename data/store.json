@@ -754,6 +754,11 @@
       "era_id": "era-turbo",
       "name": "Alone in my Room",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Dead Inside",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
