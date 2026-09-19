@@ -759,6 +759,11 @@
       "era_id": "era-turbo",
       "name": "Dead Inside",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Die For You",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
