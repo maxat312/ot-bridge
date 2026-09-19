@@ -734,6 +734,11 @@
       "era_id": "era-kryph",
       "name": "Oliver Tree x Imad Royal - Yams [Nothing At All]",
       "to_era_id": "era-turbo"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Bad Actor",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
