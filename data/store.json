@@ -739,6 +739,11 @@
       "era_id": "era-turbo",
       "name": "Bad Actor",
       "to_era_id": "era-alone"
+    },
+    {
+      "era_id": "era-turbo",
+      "name": "Bad Habits",
+      "to_era_id": "era-alone"
     }
   ],
   "links": [
